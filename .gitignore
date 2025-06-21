@@ -1,0 +1,33 @@
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+UserSettings/
+
+# Archivos del sistema
+.DS_Store
+*.swp
+*.tmp
+
+# VS/JetBrains
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.user
+*.unityproj
+*.pidb
+*.suo
+
+# Unity Cloud
+.collabignore
+
+# Archivos generados
+*.apk
+*.aab
+*.exe
+*.app
+*.unitypackage

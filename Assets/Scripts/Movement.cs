@@ -26,10 +26,12 @@ public class Movement : MonoBehaviour
         UpdateAnimation(movement);
     }
 
-    void UpdateAnimation(Vector2 movement)
-    {
-        animator.SetFloat("MoveX", movement.x);
-        animator.SetFloat("MoveY", movement.y);
-        animator.SetBool("IsMoving", movement != Vector2.zero);
-    }
+void UpdateAnimation(Vector2 movement)
+{
+    animator.SetFloat("MoveX", movement.x);
+    animator.SetFloat("MoveY", movement.y);
+    bool isMoving = movement != Vector2.zero;
+    animator.SetBool("IsMoving", isMoving);
+    Debug.Log("IsMoving: " + isMoving);
+}
 }

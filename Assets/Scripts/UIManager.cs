@@ -47,9 +47,9 @@ public class UIManager : MonoBehaviour
             gameOverBackground.sprite = finalCatastrofico;
     }
 
-void Start()
-{
-    ShowGameOver("Final perfecto");
-}
+// void Start()
+// {
+//     ShowGameOver("Final catastrofico");
+// }
 }
 

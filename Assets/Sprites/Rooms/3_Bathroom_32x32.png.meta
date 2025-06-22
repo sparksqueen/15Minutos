@@ -1,0 +1,5020 @@
+fileFormatVersion: 2
+guid: 919ff309c6b87b14c9bf12abd4e7cfbc
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "ba\xF1o32x32"
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1772
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0102457fce9af0445973355a2f9ce9c4
+      internalID: -680501321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_1
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1710
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f57a8add0fa7d5438638905f19980b4
+      internalID: 1676871414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_2
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1710
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1290df747a7d8d24b8d9e15af154f681
+      internalID: -1986405014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_3
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1710
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b3e45f6b5733840871244988f36cb5
+      internalID: 685387912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_4
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 1710
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad38cc5974627c246ab0baaadc6f4741
+      internalID: -1046182074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_5
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1760
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571b9d63238a85a46a4e9bbb1a8357b9
+      internalID: -402643604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1712
+        width: 64
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411ff7901aa06d0418e914c42c35cb67
+      internalID: 1094920226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_7
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1740
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35202bbbd6ab304592febcfb158dab6
+      internalID: 532971547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1710
+        width: 96
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92da5143c638e44f84989a75278fab8
+      internalID: 204730201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_9
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1734
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d62e663a73d4d6742bd7a1fbfb900742
+      internalID: -203915973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_10
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1710
+        width: 40
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf4196fd48b6ad4d9afde5b50ccf564
+      internalID: 1596992452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_11
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 1722
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa334cb8676303439fa14e9432652a9
+      internalID: 1515683738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_12
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1708
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a9a2c8f82053d74aac8ffe29af4a908
+      internalID: 1188160698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_13
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1702
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb503a2c7c21cbf4aa2941bd7d2f54f3
+      internalID: -1615378915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_14
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1680
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c53ce075a808eae4cbc6c709e035a95e
+      internalID: -1512158940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_15
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1680
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c057182d04f9e24893393b81ff33401
+      internalID: -651063739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1582
+        width: 96
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e995221673942248b81de983389a7e2
+      internalID: 1825421102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_17
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 1664
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c1ebc6ff0417340870aca80737eab9
+      internalID: 663995733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_18
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1616
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 855f05c83ccb8534a915fed39880dd61
+      internalID: 1088650024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_19
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1616
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4cb3ef81a460fb4da6a2cac1b429cdc
+      internalID: 1986793107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_20
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1616
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c45ca92f9cfab4ab77f528cb1e36ac
+      internalID: 416272711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_21
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 1616
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08402928c6757d640b232306b6d2e711
+      internalID: -373226313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_22
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1616
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1832bdf09a862c1478dcf912c987a9f2
+      internalID: -1532079189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_23
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 1632
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a9f586df0f727468c119c3a3a615e8
+      internalID: 1141404036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_24
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1570
+        width: 28
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da44a8396791310489189d3480354b97
+      internalID: 1477832359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_25
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 1644
+        width: 52
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a001571df82744740b564c3c9cf22a07
+      internalID: 418835084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1582
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 111688aa1be632240bdcd79425ae4c93
+      internalID: 1352225422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_27
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1544
+        width: 62
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5adef4cda418a584f8be0c8fc670ff60
+      internalID: -69759412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_28
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1544
+        width: 62
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed4d3960961886499c939cc0f9c9abd
+      internalID: 763654244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_29
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1590
+        width: 50
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a33a3932398b1c4bb2b0075975b8a32
+      internalID: 5643730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_30
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 1590
+        width: 50
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08fd825ef9ba1804cabe0e245753d2bd
+      internalID: -1433407418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_31
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1480
+        width: 62
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1940e0ce4c830ca4db3afb476f3c125e
+      internalID: -397949714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_32
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1512
+        width: 62
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2c26668a62ef44bb9a60b9cac1980f
+      internalID: 1150546275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_33
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 1526
+        width: 50
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa3fcd8168dc1244903591da991868e
+      internalID: 1876327243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_34
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1456
+        width: 40
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f59f64b77983ac841bbfd9c7eee4b74b
+      internalID: -1735532049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_35
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1456
+        width: 40
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05dafff9e9ee50a4cbb0d8e55b0db25e
+      internalID: -193689929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_36
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1456
+        width: 40
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eee16478155c7f4bb8193e1c1eca2fa
+      internalID: -590208675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_37
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1478
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5a695fda60952a4ab5d31b1ba0991a8
+      internalID: -2129362076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_38
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1488
+        width: 18
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84485757fb0ab7644aeec2be7b4ce955
+      internalID: 650162164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_39
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1414
+        width: 60
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d523089622d721b4ca0de72a35b4d02e
+      internalID: -703652604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_40
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1488
+        width: 18
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba979edf57300c748b899d98c562ef52
+      internalID: 22559614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_41
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1422
+        width: 56
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c6279b0025bbe4db61cf2c62045bca
+      internalID: -1685019493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_42
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1416
+        width: 62
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f496f768d7c0e4a826bddf9e32dca0
+      internalID: 89097498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_43
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1414
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f39b1c0fc86b1543b3b6d1d5f6e007f
+      internalID: 365662948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_44
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1450
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da877f494e068248b210bb832df7c65
+      internalID: 97302484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_45
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 1422
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d1d88242964dc4cb0ab90c6c901bbd
+      internalID: 248870919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_46
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 1386
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac9ecc5403ddbd4aabbde81d7895fa7
+      internalID: 627851034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_47
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 1418
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba702ee4d3a22b45b4825a7d0178a45
+      internalID: -1718187290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_48
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1352
+        width: 62
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa29eb6b5ec1d9489c715ee2d524074
+      internalID: 675886139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_49
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 1322
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e870e0f51a615042bf142b5953f0d26
+      internalID: 760626238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_50
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 1326
+        width: 54
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ffb24f1c3a11c48b7129f0c70cc387
+      internalID: -1498155265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_51
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1366
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 822cfb0d879630f41b2d32edd79b8fd0
+      internalID: 589258992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_52
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1366
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25cd362b8660acf43afc6acb8a75d977
+      internalID: 1479488909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_53
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 1366
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 774ef99b11a4ec34a82038679c890ee9
+      internalID: 1493317297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_54
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1366
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9744fbdb4431c894da839c65a96014f4
+      internalID: 973567450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_55
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1350
+        width: 128
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14bc525f1c05afc43b71497bd955714a
+      internalID: 864299902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_56
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1290
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b0908c95693fd478f38252269f70b2
+      internalID: -1108350004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_57
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 1230
+        width: 54
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1270cc3b16d526548a650bb8ddea6d20
+      internalID: 1137789753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_58
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1216
+        width: 54
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1600a5db635e1ef47ab735cbc294ce9f
+      internalID: 1801845108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_59
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1224
+        width: 48
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b5264520c090f14b9067a94bdb5787b
+      internalID: 972815937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_60
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1224
+        width: 48
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc3cd1bb6cfd65449023994755cfcdd
+      internalID: 2126611405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_61
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1224
+        width: 48
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240929e47c2cdc24ca751e5b963a6bba
+      internalID: -1316329160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_62
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1164
+        width: 122
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0caefceed0ebcd047a91078d099f8cc1
+      internalID: -705201562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_63
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1172
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72eab371c446e0e4180f54ff4530ff69
+      internalID: -224263402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_64
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1172
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fbedb2d6f70f074a87dfda37734d24b
+      internalID: -104484118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_65
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 1172
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af98365ef2cd70048bae2bbb971c4dda
+      internalID: 1135818036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_66
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 1178
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da6cb9c3e49d7b479f91922e5651127
+      internalID: -702332938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_67
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1158
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02519a947825c134c82c70bb07ed271b
+      internalID: 144943995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_68
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1158
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea941174052d5f438f809371425f667
+      internalID: -1255808632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_69
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 1158
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c28b937a66b55de4598952e4387780bf
+      internalID: 2012202840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_70
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1100
+        width: 122
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74430cf502401044999407b77c410c27
+      internalID: 1696972905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_71
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1092
+        width: 56
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb4150e34b3a0347ba6da7a94cf8f6c
+      internalID: -1132451047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_72
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1092
+        width: 56
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf2a2398c7181b4c86ef272504b588d
+      internalID: -1638092169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_73
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1092
+        width: 56
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2385675a1e2deac4c82fbb8804fc429e
+      internalID: 67247303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_74
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1056
+        width: 152
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4074390e23399714bbd94889ecb39ed7
+      internalID: 100174399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_75
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 974
+        width: 120
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8bf66b04d961814eae8d8491462ec9e
+      internalID: -86409344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_76
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 988
+        width: 94
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b54c6ef2b67892244a29ededdad15f8f
+      internalID: -163166227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_77
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 972
+        width: 28
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b86e5cb9c0c279458669f04251091ce
+      internalID: -1925403036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_78
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 972
+        width: 28
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 602e27e5b7b1367438732a1b63b256e7
+      internalID: 1287751228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_79
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 972
+        width: 28
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a6bac5709c62c649a9b8ac25d877cfa
+      internalID: -594152931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_80
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 972
+        width: 28
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d72390a2eadd143b5cb3b95823ff90
+      internalID: 134692478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_81
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 972
+        width: 28
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b18c80ae61d5c4ca5f1fe2f6b93041
+      internalID: -642551490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_82
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 972
+        width: 28
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 873d3481b6db33b4e8b74d79804aee33
+      internalID: -393026163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_83
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 1030
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbcfac5494d22994f81749f0bb9be339
+      internalID: -539327070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_84
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 1030
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c5be88d80f49d24f867479177ba2a13
+      internalID: 1303007632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_85
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 974
+        width: 62
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33ea86f0af0e3e4d8f5126b04f0e285
+      internalID: -210323779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_86
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 960
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7357f1a5936d9346809ace172f6ea95
+      internalID: -1692292678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_87
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 910
+        width: 94
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f779d2df62bd5f64890f42b1e0d2c2b4
+      internalID: 742559931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_88
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 956
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765b3914b34424d428a07e8945fde19b
+      internalID: -907994034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_89
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 974
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a3819fb13aa36b4c850b04e7cddd98e
+      internalID: -257488370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_90
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 970
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7302b1940705e458bc505fd6dc5b5f
+      internalID: -1798427830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_91
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 910
+        width: 62
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75cbf0e0d29327f4b80fa55ffe1ff020
+      internalID: -698529362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_92
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 910
+        width: 94
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b353c26b878cc04ea8ea6641f57b8c5
+      internalID: 99501026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_93
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda69b701fda7e64cad1a6a8ecc95402
+      internalID: -1238801414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_94
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 896
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9280d587dded9b2439d2fdf96bd1d0cc
+      internalID: -917578295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_95
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 876
+        width: 28
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 010c58895a87e714891c10df77f803ab
+      internalID: -1572216286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_96
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 876
+        width: 28
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5adff6b5e438820448af2be9428a97a8
+      internalID: -1903427041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_97
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 876
+        width: 28
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c50ca5f97aa5820449c8f4a016bf3240
+      internalID: -53883330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_98
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 876
+        width: 28
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1845b24d40afa4db40356875d801b0
+      internalID: 207067451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_99
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 876
+        width: 28
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b61c2b62a81de4b9e92c3c11e75386
+      internalID: 280555507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_100
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 876
+        width: 28
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61711e18f44a5a343bee50aab93c55fe
+      internalID: 1570050253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_101
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 910
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f67d810e4824ae499010d9be715878f
+      internalID: 1079380444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_102
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 906
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10ba5d2bedb305848a9ac3fd4738b615
+      internalID: 737516903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_103
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 846
+        width: 52
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62496322d07630b498e31f8242659fc8
+      internalID: -47370990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_104
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 852
+        width: 54
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2fb32e4e1497ae4d96962606964607a
+      internalID: -1041972243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_105
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 840
+        width: 52
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a1328ddb301474d9330fbfd73281a3
+      internalID: 991687616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_106
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 856
+        width: 52
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03c100b128725d438b9e6919b0eb3f2
+      internalID: -1179544362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_107
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 832
+        width: 62
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a815bc34d8a10af4cb545894352b761f
+      internalID: -2030862944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_108
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 832
+        width: 62
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69efcd2e8d806564690c9c2f8186a003
+      internalID: -994509024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_109
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 832
+        width: 58
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 610191d4b528ec249810094fc72526a6
+      internalID: -2051508588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_110
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 832
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e12dfe2f0428bd489417d878bdb1350
+      internalID: -234762169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_111
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 776
+        width: 52
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15402ad119784e94dae280724aca66cb
+      internalID: 1015782745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_112
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 792
+        width: 52
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d0cb18f7ddbfdf428b9c666fba74b2b
+      internalID: 1808449847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_113
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 800
+        width: 52
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e45a6b8f0df63747bd8d7711a38930d
+      internalID: -186446776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_114
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 792
+        width: 52
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e33b79c43d1550b48b37c755b9f6cd5c
+      internalID: -1153553234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_115
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 800
+        width: 128
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 538502060cf1dd24ca11ffe40ecfa706
+      internalID: -154240579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_116
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 752
+        width: 56
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 322d417810da440419a7a461f2298b82
+      internalID: -2075590340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_117
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 752
+        width: 56
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a5dc869795e2e4c894ffe25db83d42
+      internalID: 1264001699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_118
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 768
+        width: 52
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e986d5e0c67d7a444a472ba687a34d66
+      internalID: -521320586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_119
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 752
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c6395ec18fdea43b899b6627363ef2
+      internalID: 1659680834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_120
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 752
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b52fa411c9d900c4796421e86a0276e7
+      internalID: -216334506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_121
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 724
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6dc654a4d756be42a56f916cf9316a4
+      internalID: 2088897059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_122
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 710
+        width: 40
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb34422bec70c0f45b5443b61841662c
+      internalID: 623250045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_123
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 672
+        width: 56
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dcc333e848eecf4ebc77d873bfd1018
+      internalID: 1652687677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_124
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 736
+        width: 64
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3abbbece9346635419e6ef4d9ae1988f
+      internalID: 2069077026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_125
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 736
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc5db43955a0bc4ab859446b3b6496c
+      internalID: -1002185360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_126
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 640
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47deeea6258f81b44a5a3dd802d22df9
+      internalID: 155988210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_127
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 688
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da08994cf8a7574abe47f18e14f7519
+      internalID: -138433762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_128
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 688
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a7817054c5d94a4891455bb045d860a
+      internalID: -2061218203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_129
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 690
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf3577f1afd28b498f5358fae2c7f35
+      internalID: -2097811323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_130
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 690
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f2ab934a679be42ba00a4db79bb535
+      internalID: -1359155246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_131
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 690
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a2d42e3c229c846a34554e36bbbbcf
+      internalID: 924036595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_132
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 690
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e70af405cd7e8747a6d1f149fe64b58
+      internalID: 1201064317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_133
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 690
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fec5dd70af05f7409b0f04c59b40fbb
+      internalID: -258344063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_134
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 660
+        width: 64
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f7bbc91a318e6d40a224999f93a67ce
+      internalID: -493160613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_135
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ccd24367a0013a49b1575f48d238c72
+      internalID: -1003949113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_136
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 640
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a082436322741d34598ef6aa12d606fc
+      internalID: -1074063984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_137
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 640
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ea50bfff5556b46922d202635a0895
+      internalID: 746104073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_138
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 656
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e089899ebcffad4f8cc8591d30e45f9
+      internalID: 41472607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_139
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 656
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c5b5aba51cd2b42a80019f34adf811
+      internalID: -1925300632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_140
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 624
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e73cdc62c695ed4ea8226867ac06786
+      internalID: 839064025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_141
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 634
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c414e9615887754faae087952215ba0
+      internalID: 1654058872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_142
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 626
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81dfd0b4a0c338d429317f42c1539486
+      internalID: 1908112420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_143
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 626
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b64cec9c2a977dd4e8315ac65398a738
+      internalID: -256847090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_144
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 626
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f183d2004c09c2842bdd3f33378ed211
+      internalID: 1638899958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_145
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 626
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 539eee17f5937444d95bdd13dc91767e
+      internalID: -995046462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_146
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 626
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4c82706a6bfd142865b71067185dc5
+      internalID: -1451247950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_147
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 608
+        width: 50
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 618b46fb0bbc7054f9377ecdea2c9e83
+      internalID: 1873368219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_148
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 608
+        width: 50
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a05e3a1e607d5454a8737790ca2b830c
+      internalID: 1251697290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_149
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 514
+        width: 140
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df62f5576b3c24b43bcb87fca62627f6
+      internalID: -2016949830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_150
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 514
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c86acc3451e69f4d849270bac0da79d
+      internalID: -1506380958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_151
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 488
+        width: 28
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0494ec69b120b74a9e342ffde7382d2
+      internalID: 580705455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_152
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 488
+        width: 28
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f5092263db4b624e8934fc721c0d472
+      internalID: -2022278816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_153
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 488
+        width: 28
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c296b6f2a4ff65e43a50ea531cb9ad88
+      internalID: 746284792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_154
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 488
+        width: 28
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d3ddff0187840440a33d1795f7a9e7a
+      internalID: -1805643212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_155
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 488
+        width: 28
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11360878ce64d7248a5bdf2139557768
+      internalID: -516376638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_156
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 488
+        width: 28
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33654075dfbd4504b8d7ca4e5b5a316f
+      internalID: -1833331104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_157
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 450
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e267195f8794b5f49939e94ba380d2b1
+      internalID: -1794049735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_158
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 486
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c1633580959ac94cbc4c36ad03c540f
+      internalID: -1417592449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_159
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 486
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc69dac95a492745a736d04aae3f276
+      internalID: 622715697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_160
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 454
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc80b800fa7f1964cbc92adaa17608ac
+      internalID: 1896982672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_161
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 496
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fad6ad217d4ce74db2ae4907d4134bf
+      internalID: -143089395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_162
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 472
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 315e2e9182b710f478a0bfc295274460
+      internalID: -164217699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_163
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 456
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da45ca51e949ce847825a89355f5e3a3
+      internalID: -1247364183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_164
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 454
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d8292e803fca6748a6af66a6b1ab2c1
+      internalID: 767417910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_165
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 464
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b04a9d9db1b494181bf8d990d925c8
+      internalID: -2070239965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_166
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 458
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41653b6690571e34aa9e51e40d7b3029
+      internalID: -443257865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_167
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 416
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de3c86300109414f848f650d132e414
+      internalID: 900249526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_168
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 384
+        width: 52
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6519764a5bf6f664bba12877e63c0c84
+      internalID: -726284118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_169
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 432
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e852850914a9084b9810810dbefce43
+      internalID: -2047770057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_170
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 422
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc10804c97aaf9499742ff917b88edd
+      internalID: -682950238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_171
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 422
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b34ebf22c8f4303418b6f81b714346f6
+      internalID: 1670932553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_172
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 422
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48586063c5f9b1b4fb161afc3301295a
+      internalID: 1676916920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_173
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 360
+        width: 28
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce715bfa5511ada4486bebe324b291b9
+      internalID: -2023398753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_174
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 360
+        width: 28
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d78abab01d655541be620d627f4899e
+      internalID: -1653777431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_175
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 360
+        width: 28
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3704647a54873374f9594bd6e891d4ab
+      internalID: -1656060673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_176
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 390
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a8056e9604f5b4e82bf8b31ce74281
+      internalID: -2061490331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_177
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 434
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8564faa881de41445972cab69d79e0b5
+      internalID: 2076348072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_178
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 342
+        width: 48
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf0954e74ee64d545bcb59d349bef925
+      internalID: 1736354957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_179
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 340
+        width: 96
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3f582a74526214aaac87f61f7a0d10
+      internalID: -778877722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_180
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 362
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a44521ac4f8234e996d84d0eb7bc0a
+      internalID: 137606002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_181
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 392
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c559a4fbe52204444975e73bb348e5e4
+      internalID: -1113032835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_182
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 392
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bfeca836673b4e4f98876e74efa1308
+      internalID: 1100754911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_183
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 372
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3185efbda61cfda4780189c20214244c
+      internalID: -1793924538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_184
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 378
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcaa734149cdd3b4aba08b5f93048e4a
+      internalID: 607638462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_185
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 376
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab6394a7721f6048be0de2dbac9550d
+      internalID: 433621247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_186
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 378
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9889e3616e33ee4e921ad68ff2690c4
+      internalID: -2014926021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_187
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 380
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0022cc5714591cd4d9b26470b036144d
+      internalID: -561603813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_188
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 362
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 679620e0ada45934296aff4c41c6348e
+      internalID: -2049815910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_189
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 362
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7439bebb6a4ecbe4fb7e3d60bd811da6
+      internalID: -1297134923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_190
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 358
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a8a8e22665f7647b58006a8b912014
+      internalID: -964344433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_191
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 236
+        width: 28
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e5f0babac36f5e4cbf6f56b38b6bd25
+      internalID: -637040800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_192
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 236
+        width: 28
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19299588708a6341abff0da515c6f76
+      internalID: 1101596551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_193
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 236
+        width: 28
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1bb2e8e7af28714fa833d49ff33ad76
+      internalID: 912771114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_194
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 236
+        width: 28
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e50778339952abd499a2e4abac1c198b
+      internalID: -373939320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_195
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 236
+        width: 28
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc398de0c8296841944a33771b6119b
+      internalID: 1616766873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_196
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 236
+        width: 28
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 618f61bafcaf69443bab07bacc1cf8fe
+      internalID: -547163622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_197
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 236
+        width: 28
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ecb7eb9488c6bd4fa03963b73ce4111
+      internalID: -1599022625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_198
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 32
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c46dd6bec3e2c2418c3e9e8346bfe1c
+      internalID: -596966124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_199
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 296
+        width: 24
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1e07e728d4b0d746a7e879fa9deb043
+      internalID: -644334386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_200
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 270
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14e8dba8736cef4e9f931e53fb7a201
+      internalID: 2121734606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_201
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 270
+        width: 56
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8f4ccae478aabb4cbab9e8103ca72b2
+      internalID: 529321201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_202
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 300
+        width: 58
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be4bedf3d70fc3f48b3430434bba44c6
+      internalID: 1182956702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_203
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 294
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b6af9f9e51f06a4a9d3ceaf6e323455
+      internalID: 671847017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_204
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 274
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e59e161ca7151b46a82d7ba5e00f1ec
+      internalID: 1626035276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_205
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 236
+        width: 58
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb68e7d66b9d2240b78595ad4268020
+      internalID: 1391232275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_206
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 228
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3891759270736254192c0c294d644758
+      internalID: 274212649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_207
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 150
+        width: 40
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a032c475b804b40b97db255c80917f
+      internalID: -343834646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_208
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 140
+        width: 28
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583e67998df8e0d4598a293689bee390
+      internalID: 1396327944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_209
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 140
+        width: 28
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb5cb67daf3c5741aeef3fa6eb2192d
+      internalID: 1989045399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_210
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 140
+        width: 28
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9930be1886e03e4aa503d436e4d0272
+      internalID: 694061120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_211
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 140
+        width: 28
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb9669fbb15cb5449e8f47103b36382
+      internalID: -978522158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_212
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 140
+        width: 28
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04422fc48552b8144b5df1a8915898df
+      internalID: 478244357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_213
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 140
+        width: 28
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e6b36625e904e4b8fc394913315145
+      internalID: 791822547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_214
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 140
+        width: 28
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee0c0b5c68b2c248a4c518232588a20
+      internalID: 715091945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_215
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 172
+        width: 58
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f9272a420d017419366d81408dcb1a
+      internalID: -2099605188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_216
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 44
+        width: 28
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb0471c6ddca94849bdd98aa8e423517
+      internalID: 1900893244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_217
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 44
+        width: 28
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d16549ba7ac2964ba81e0e49bf477be
+      internalID: -1476858224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_218
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 44
+        width: 28
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e2f9e00234f871438a0989515eeca76
+      internalID: -1530105940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_219
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 44
+        width: 28
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5305d66165024e64097ef62bc53c8da5
+      internalID: -631108621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_220
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 44
+        width: 28
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b9f35ae55436df4bb43e484702e4352
+      internalID: 479912003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_221
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 44
+        width: 28
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3e39363edc3ad48b3f5be9ca1e7eb5
+      internalID: -2135075484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_32x32_222
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 44
+        width: 28
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e80b41abde7170b49b71a321465fda33
+      internalID: -1002787190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      3_Bathroom_32x32_1: 1676871414
+      3_Bathroom_32x32_10: 1596992452
+      3_Bathroom_32x32_100: 1570050253
+      3_Bathroom_32x32_101: 1079380444
+      3_Bathroom_32x32_102: 737516903
+      3_Bathroom_32x32_103: -47370990
+      3_Bathroom_32x32_104: -1041972243
+      3_Bathroom_32x32_105: 991687616
+      3_Bathroom_32x32_106: -1179544362
+      3_Bathroom_32x32_107: -2030862944
+      3_Bathroom_32x32_108: -994509024
+      3_Bathroom_32x32_109: -2051508588
+      3_Bathroom_32x32_11: 1515683738
+      3_Bathroom_32x32_110: -234762169
+      3_Bathroom_32x32_111: 1015782745
+      3_Bathroom_32x32_112: 1808449847
+      3_Bathroom_32x32_113: -186446776
+      3_Bathroom_32x32_114: -1153553234
+      3_Bathroom_32x32_115: -154240579
+      3_Bathroom_32x32_116: -2075590340
+      3_Bathroom_32x32_117: 1264001699
+      3_Bathroom_32x32_118: -521320586
+      3_Bathroom_32x32_119: 1659680834
+      3_Bathroom_32x32_12: 1188160698
+      3_Bathroom_32x32_120: -216334506
+      3_Bathroom_32x32_121: 2088897059
+      3_Bathroom_32x32_122: 623250045
+      3_Bathroom_32x32_123: 1652687677
+      3_Bathroom_32x32_124: 2069077026
+      3_Bathroom_32x32_125: -1002185360
+      3_Bathroom_32x32_126: 155988210
+      3_Bathroom_32x32_127: -138433762
+      3_Bathroom_32x32_128: -2061218203
+      3_Bathroom_32x32_129: -2097811323
+      3_Bathroom_32x32_13: -1615378915
+      3_Bathroom_32x32_130: -1359155246
+      3_Bathroom_32x32_131: 924036595
+      3_Bathroom_32x32_132: 1201064317
+      3_Bathroom_32x32_133: -258344063
+      3_Bathroom_32x32_134: -493160613
+      3_Bathroom_32x32_135: -1003949113
+      3_Bathroom_32x32_136: -1074063984
+      3_Bathroom_32x32_137: 746104073
+      3_Bathroom_32x32_138: 41472607
+      3_Bathroom_32x32_139: -1925300632
+      3_Bathroom_32x32_14: -1512158940
+      3_Bathroom_32x32_140: 839064025
+      3_Bathroom_32x32_141: 1654058872
+      3_Bathroom_32x32_142: 1908112420
+      3_Bathroom_32x32_143: -256847090
+      3_Bathroom_32x32_144: 1638899958
+      3_Bathroom_32x32_145: -995046462
+      3_Bathroom_32x32_146: -1451247950
+      3_Bathroom_32x32_147: 1873368219
+      3_Bathroom_32x32_148: 1251697290
+      3_Bathroom_32x32_149: -2016949830
+      3_Bathroom_32x32_15: -651063739
+      3_Bathroom_32x32_150: -1506380958
+      3_Bathroom_32x32_151: 580705455
+      3_Bathroom_32x32_152: -2022278816
+      3_Bathroom_32x32_153: 746284792
+      3_Bathroom_32x32_154: -1805643212
+      3_Bathroom_32x32_155: -516376638
+      3_Bathroom_32x32_156: -1833331104
+      3_Bathroom_32x32_157: -1794049735
+      3_Bathroom_32x32_158: -1417592449
+      3_Bathroom_32x32_159: 622715697
+      3_Bathroom_32x32_16: 1825421102
+      3_Bathroom_32x32_160: 1896982672
+      3_Bathroom_32x32_161: -143089395
+      3_Bathroom_32x32_162: -164217699
+      3_Bathroom_32x32_163: -1247364183
+      3_Bathroom_32x32_164: 767417910
+      3_Bathroom_32x32_165: -2070239965
+      3_Bathroom_32x32_166: -443257865
+      3_Bathroom_32x32_167: 900249526
+      3_Bathroom_32x32_168: -726284118
+      3_Bathroom_32x32_169: -2047770057
+      3_Bathroom_32x32_17: 663995733
+      3_Bathroom_32x32_170: -682950238
+      3_Bathroom_32x32_171: 1670932553
+      3_Bathroom_32x32_172: 1676916920
+      3_Bathroom_32x32_173: -2023398753
+      3_Bathroom_32x32_174: -1653777431
+      3_Bathroom_32x32_175: -1656060673
+      3_Bathroom_32x32_176: -2061490331
+      3_Bathroom_32x32_177: 2076348072
+      3_Bathroom_32x32_178: 1736354957
+      3_Bathroom_32x32_179: -778877722
+      3_Bathroom_32x32_18: 1088650024
+      3_Bathroom_32x32_180: 137606002
+      3_Bathroom_32x32_181: -1113032835
+      3_Bathroom_32x32_182: 1100754911
+      3_Bathroom_32x32_183: -1793924538
+      3_Bathroom_32x32_184: 607638462
+      3_Bathroom_32x32_185: 433621247
+      3_Bathroom_32x32_186: -2014926021
+      3_Bathroom_32x32_187: -561603813
+      3_Bathroom_32x32_188: -2049815910
+      3_Bathroom_32x32_189: -1297134923
+      3_Bathroom_32x32_19: 1986793107
+      3_Bathroom_32x32_190: -964344433
+      3_Bathroom_32x32_191: -637040800
+      3_Bathroom_32x32_192: 1101596551
+      3_Bathroom_32x32_193: 912771114
+      3_Bathroom_32x32_194: -373939320
+      3_Bathroom_32x32_195: 1616766873
+      3_Bathroom_32x32_196: -547163622
+      3_Bathroom_32x32_197: -1599022625
+      3_Bathroom_32x32_198: -596966124
+      3_Bathroom_32x32_199: -644334386
+      3_Bathroom_32x32_2: -1986405014
+      3_Bathroom_32x32_20: 416272711
+      3_Bathroom_32x32_200: 2121734606
+      3_Bathroom_32x32_201: 529321201
+      3_Bathroom_32x32_202: 1182956702
+      3_Bathroom_32x32_203: 671847017
+      3_Bathroom_32x32_204: 1626035276
+      3_Bathroom_32x32_205: 1391232275
+      3_Bathroom_32x32_206: 274212649
+      3_Bathroom_32x32_207: -343834646
+      3_Bathroom_32x32_208: 1396327944
+      3_Bathroom_32x32_209: 1989045399
+      3_Bathroom_32x32_21: -373226313
+      3_Bathroom_32x32_210: 694061120
+      3_Bathroom_32x32_211: -978522158
+      3_Bathroom_32x32_212: 478244357
+      3_Bathroom_32x32_213: 791822547
+      3_Bathroom_32x32_214: 715091945
+      3_Bathroom_32x32_215: -2099605188
+      3_Bathroom_32x32_216: 1900893244
+      3_Bathroom_32x32_217: -1476858224
+      3_Bathroom_32x32_218: -1530105940
+      3_Bathroom_32x32_219: -631108621
+      3_Bathroom_32x32_22: -1532079189
+      3_Bathroom_32x32_220: 479912003
+      3_Bathroom_32x32_221: -2135075484
+      3_Bathroom_32x32_222: -1002787190
+      3_Bathroom_32x32_23: 1141404036
+      3_Bathroom_32x32_24: 1477832359
+      3_Bathroom_32x32_25: 418835084
+      3_Bathroom_32x32_26: 1352225422
+      3_Bathroom_32x32_27: -69759412
+      3_Bathroom_32x32_28: 763654244
+      3_Bathroom_32x32_29: 5643730
+      3_Bathroom_32x32_3: 685387912
+      3_Bathroom_32x32_30: -1433407418
+      3_Bathroom_32x32_31: -397949714
+      3_Bathroom_32x32_32: 1150546275
+      3_Bathroom_32x32_33: 1876327243
+      3_Bathroom_32x32_34: -1735532049
+      3_Bathroom_32x32_35: -193689929
+      3_Bathroom_32x32_36: -590208675
+      3_Bathroom_32x32_37: -2129362076
+      3_Bathroom_32x32_38: 650162164
+      3_Bathroom_32x32_39: -703652604
+      3_Bathroom_32x32_4: -1046182074
+      3_Bathroom_32x32_40: 22559614
+      3_Bathroom_32x32_41: -1685019493
+      3_Bathroom_32x32_42: 89097498
+      3_Bathroom_32x32_43: 365662948
+      3_Bathroom_32x32_44: 97302484
+      3_Bathroom_32x32_45: 248870919
+      3_Bathroom_32x32_46: 627851034
+      3_Bathroom_32x32_47: -1718187290
+      3_Bathroom_32x32_48: 675886139
+      3_Bathroom_32x32_49: 760626238
+      3_Bathroom_32x32_5: -402643604
+      3_Bathroom_32x32_50: -1498155265
+      3_Bathroom_32x32_51: 589258992
+      3_Bathroom_32x32_52: 1479488909
+      3_Bathroom_32x32_53: 1493317297
+      3_Bathroom_32x32_54: 973567450
+      3_Bathroom_32x32_55: 864299902
+      3_Bathroom_32x32_56: -1108350004
+      3_Bathroom_32x32_57: 1137789753
+      3_Bathroom_32x32_58: 1801845108
+      3_Bathroom_32x32_59: 972815937
+      3_Bathroom_32x32_6: 1094920226
+      3_Bathroom_32x32_60: 2126611405
+      3_Bathroom_32x32_61: -1316329160
+      3_Bathroom_32x32_62: -705201562
+      3_Bathroom_32x32_63: -224263402
+      3_Bathroom_32x32_64: -104484118
+      3_Bathroom_32x32_65: 1135818036
+      3_Bathroom_32x32_66: -702332938
+      3_Bathroom_32x32_67: 144943995
+      3_Bathroom_32x32_68: -1255808632
+      3_Bathroom_32x32_69: 2012202840
+      3_Bathroom_32x32_7: 532971547
+      3_Bathroom_32x32_70: 1696972905
+      3_Bathroom_32x32_71: -1132451047
+      3_Bathroom_32x32_72: -1638092169
+      3_Bathroom_32x32_73: 67247303
+      3_Bathroom_32x32_74: 100174399
+      3_Bathroom_32x32_75: -86409344
+      3_Bathroom_32x32_76: -163166227
+      3_Bathroom_32x32_77: -1925403036
+      3_Bathroom_32x32_78: 1287751228
+      3_Bathroom_32x32_79: -594152931
+      3_Bathroom_32x32_8: 204730201
+      3_Bathroom_32x32_80: 134692478
+      3_Bathroom_32x32_81: -642551490
+      3_Bathroom_32x32_82: -393026163
+      3_Bathroom_32x32_83: -539327070
+      3_Bathroom_32x32_84: 1303007632
+      3_Bathroom_32x32_85: -210323779
+      3_Bathroom_32x32_86: -1692292678
+      3_Bathroom_32x32_87: 742559931
+      3_Bathroom_32x32_88: -907994034
+      3_Bathroom_32x32_89: -257488370
+      3_Bathroom_32x32_9: -203915973
+      3_Bathroom_32x32_90: -1798427830
+      3_Bathroom_32x32_91: -698529362
+      3_Bathroom_32x32_92: 99501026
+      3_Bathroom_32x32_93: -1238801414
+      3_Bathroom_32x32_94: -917578295
+      3_Bathroom_32x32_95: -1572216286
+      3_Bathroom_32x32_96: -1903427041
+      3_Bathroom_32x32_97: -53883330
+      3_Bathroom_32x32_98: 207067451
+      3_Bathroom_32x32_99: 280555507
+      "ba\xF1o32x32": -680501321
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

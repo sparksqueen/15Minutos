@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Skateboard
   - Interactable
+  - Pickup
   layers:
   - Default
   - TransparentFX

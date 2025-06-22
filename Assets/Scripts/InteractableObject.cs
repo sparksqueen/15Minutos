@@ -1,12 +1,12 @@
 using UnityEngine;
 using TMPro;
 
-// 🟡 Esto va fuera de la clase
 public enum InteraccionTipo
 {
     CambiarSprite,
     Desactivar,
-    Destruir
+    Destruir, 
+    PegarAlJugador
 }
 
 public class InteractableObject : MonoBehaviour
@@ -18,23 +18,29 @@ public class InteractableObject : MonoBehaviour
 
     private SpriteRenderer sr;
     private bool jugadorCerca = false;
-    private bool fueUsado = false;
+    private Transform jugador;
+    private PlayerPickup pickupScript;
 
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
         if (promptText != null)
             promptText.SetActive(false);
+
+        pickupScript = FindObjectOfType<PlayerPickup>();
     }
 
     void Update()
     {
-        if (fueUsado) return;
-
         if (jugadorCerca && Input.GetKeyDown(KeyCode.Space))
         {
+            if (pickupScript != null && pickupScript.EstáSosteniendo())
+            {
+                Debug.Log("No se puede interactuar mientras sostenés un objeto");
+                return;
+            }
+
             EjecutarInteraccion();
-            fueUsado = true;
 
             if (promptText != null)
                 promptText.SetActive(false);
@@ -67,7 +73,9 @@ public class InteractableObject : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             jugadorCerca = true;
-            if (!fueUsado && promptText != null)
+            jugador = other.transform;
+
+            if (promptText != null)
                 promptText.SetActive(true);
         }
     }
@@ -77,6 +85,7 @@ public class InteractableObject : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             jugadorCerca = false;
+
             if (promptText != null)
                 promptText.SetActive(false);
         }

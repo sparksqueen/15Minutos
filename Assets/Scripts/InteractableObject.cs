@@ -11,7 +11,7 @@ public enum InteraccionTipo
 
 public class InteractableObject : MonoBehaviour
 {
-    public string objetoID; // Para validación en zonas objetivo
+    public string objetoID;
     public InteraccionTipo tipoDeInteraccion = InteraccionTipo.PegarAlJugador;
     public Sprite spriteLimpio;
     public Vector3 offset = new Vector3(0.5f, 0.5f, 0f);
@@ -22,12 +22,13 @@ public class InteractableObject : MonoBehaviour
     private Collider2D col;
     private static GameObject promptText;
 
+    private bool yaContado = false; // ✅ nuevo
+
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
         col = GetComponent<Collider2D>();
 
-        // Solo buscamos el prompt una vez
         if (promptText == null)
             promptText = GameObject.FindGameObjectWithTag("Prompt");
 
@@ -49,6 +50,12 @@ public class InteractableObject : MonoBehaviour
 
     void EjecutarInteraccion()
     {
+        if (!yaContado)
+        {
+            FindObjectOfType<CaosometroManager>()?.ObjetoOrdenado();
+            yaContado = true;
+        }
+
         switch (tipoDeInteraccion)
         {
             case InteraccionTipo.CambiarSprite:
@@ -65,7 +72,6 @@ public class InteractableObject : MonoBehaviour
                 break;
 
             case InteraccionTipo.PegarAlJugador:
-                // Lo maneja PlayerPickup.cs
                 break;
         }
 

@@ -21,7 +21,18 @@ public class ZonaObjetivo : MonoBehaviour
             if (other.TryGetComponent(out Collider2D col))
                 col.enabled = false;
 
-            other.tag = "Untagged";
+            if (other.tag == "Pickup") // solo cuenta si era "Pickup"
+            {
+                // ✔️ Previene doble conteo
+                other.tag = "Untagged";
+
+                // ✔️ Marca como entregado
+                if (!other.TryGetComponent<YaEntregado>(out _))
+                {
+                    other.gameObject.AddComponent<YaEntregado>();
+                    FindObjectOfType<CaosometroManager>()?.ObjetoOrdenado();
+                }
+            }
         }
     }
 }

@@ -7,9 +7,12 @@ using UnityEngine.UI;
 public class UIManager : MonoBehaviour
 {
     public static UIManager Instance;
+
     public GameObject mainUI;
     public GameObject gameOverScreen;
     public GameObject titleScreen;
+    public GameObject caosometroUI;
+
     public Image gameOverBackground;
     public Sprite finalPerfecto;
     public Sprite finalDesordenado;
@@ -25,31 +28,44 @@ public class UIManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+        // Ocultar caosómetro al inicio
+        if (caosometroUI != null)
+            caosometroUI.SetActive(false);
+
+        // También por seguridad, ocultamos pantalla de GameOver al iniciar
+        if (gameOverScreen != null)
+            gameOverScreen.SetActive(false);
     }
+
     public void OnPlayPressed()
     {
-        titleScreen.SetActive(false);
-        mainUI.SetActive(true);
+        if (titleScreen != null) titleScreen.SetActive(false);
+        if (mainUI != null) mainUI.SetActive(true);
+        if (caosometroUI != null) caosometroUI.SetActive(true);
+
         GameManager.Instance.StartGame();
     }
 
     public void ShowGameOver(string finalText)
     {
-        gameOverScreen.SetActive(true);
-        gameOverScreen.GetComponentInChildren<TextMeshProUGUI>().text = finalText;
+        if (gameOverScreen != null)
+        {
+            gameOverScreen.SetActive(true);
 
-        // Elegir imagen según final
-        if (finalText.Contains("perfecto"))
-            gameOverBackground.sprite = finalPerfecto;
-        else if (finalText.Contains("desordenado"))
-            gameOverBackground.sprite = finalDesordenado;
-        else
-            gameOverBackground.sprite = finalCatastrofico;
+            var texto = gameOverScreen.GetComponentInChildren<TextMeshProUGUI>();
+            if (texto != null)
+                texto.text = finalText;
+
+            if (finalText.ToLower().Contains("perfecto"))
+                gameOverBackground.sprite = finalPerfecto;
+            else if (finalText.ToLower().Contains("desordenado"))
+                gameOverBackground.sprite = finalDesordenado;
+            else
+                gameOverBackground.sprite = finalCatastrofico;
+        }
+
+        if (caosometroUI != null)
+            caosometroUI.SetActive(false);
     }
-
-// void Start()
-// {
-//     ShowGameOver("Final catastrofico");
-// }
 }
-

@@ -13,21 +13,24 @@ public class InteractableObject : MonoBehaviour
 {
     public string objetoID; // Para validación en zonas objetivo
     public InteraccionTipo tipoDeInteraccion = InteraccionTipo.PegarAlJugador;
-
     public Sprite spriteLimpio;
-    public GameObject promptText;
     public Vector3 offset = new Vector3(0.5f, 0.5f, 0f);
 
     private SpriteRenderer sr;
     private bool jugadorCerca = false;
     private Transform jugador;
-    private bool estaPegado = false;
     private Collider2D col;
+    private static GameObject promptText;
 
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
         col = GetComponent<Collider2D>();
+
+        // Solo buscamos el prompt una vez
+        if (promptText == null)
+            promptText = GameObject.FindGameObjectWithTag("Prompt");
+
         if (promptText != null)
             promptText.SetActive(false);
     }
@@ -39,8 +42,7 @@ public class InteractableObject : MonoBehaviour
             if (tipoDeInteraccion != InteraccionTipo.PegarAlJugador)
             {
                 EjecutarInteraccion();
-                if (promptText != null)
-                    promptText.SetActive(false);
+                OcultarPrompt();
             }
         }
     }
@@ -63,7 +65,7 @@ public class InteractableObject : MonoBehaviour
                 break;
 
             case InteraccionTipo.PegarAlJugador:
-                // Esta lógica está gestionada por PlayerPickup, así que no se ejecuta desde acá.
+                // Lo maneja PlayerPickup.cs
                 break;
         }
 
@@ -78,7 +80,30 @@ public class InteractableObject : MonoBehaviour
             jugador = other.transform;
 
             if (promptText != null && tipoDeInteraccion != InteraccionTipo.PegarAlJugador)
+            {
                 promptText.SetActive(true);
+                var tmp = promptText.GetComponentInChildren<TMP_Text>();
+                if (tmp != null)
+                {
+                    switch (tipoDeInteraccion)
+                    {
+                        case InteraccionTipo.CambiarSprite:
+                            tmp.text = "Presione espacio para limpiar";
+                            break;
+                        case InteraccionTipo.Desactivar:
+                        case InteraccionTipo.Destruir:
+                            tmp.text = "Presione espacio para eliminar";
+                            break;
+                    }
+                }
+            }
+            else if (promptText != null && tipoDeInteraccion == InteraccionTipo.PegarAlJugador)
+            {
+                promptText.SetActive(true);
+                var tmp = promptText.GetComponentInChildren<TMP_Text>();
+                if (tmp != null)
+                    tmp.text = "Mantenga G para mover";
+            }
         }
     }
 
@@ -87,9 +112,13 @@ public class InteractableObject : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             jugadorCerca = false;
-
-            if (promptText != null)
-                promptText.SetActive(false);
+            OcultarPrompt();
         }
+    }
+
+    private void OcultarPrompt()
+    {
+        if (promptText != null)
+            promptText.SetActive(false);
     }
 }

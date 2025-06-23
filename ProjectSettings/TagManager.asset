@@ -9,6 +9,7 @@ TagManager:
   - Pickup
   - Zona
   - ZonaObjetivo
+  - Prompt
   layers:
   - Default
   - TransparentFX

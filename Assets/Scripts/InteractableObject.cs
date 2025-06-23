@@ -5,45 +5,43 @@ public enum InteraccionTipo
 {
     CambiarSprite,
     Desactivar,
-    Destruir, 
+    Destruir,
     PegarAlJugador
 }
 
 public class InteractableObject : MonoBehaviour
 {
-    public InteraccionTipo tipoDeInteraccion = InteraccionTipo.CambiarSprite;
+    public string objetoID; // Para validación en zonas objetivo
+    public InteraccionTipo tipoDeInteraccion = InteraccionTipo.PegarAlJugador;
 
     public Sprite spriteLimpio;
     public GameObject promptText;
+    public Vector3 offset = new Vector3(0.5f, 0.5f, 0f);
 
     private SpriteRenderer sr;
     private bool jugadorCerca = false;
     private Transform jugador;
-    private PlayerPickup pickupScript;
+    private bool estaPegado = false;
+    private Collider2D col;
 
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
+        col = GetComponent<Collider2D>();
         if (promptText != null)
             promptText.SetActive(false);
-
-        pickupScript = FindObjectOfType<PlayerPickup>();
     }
 
     void Update()
     {
         if (jugadorCerca && Input.GetKeyDown(KeyCode.Space))
         {
-            if (pickupScript != null && pickupScript.EstáSosteniendo())
+            if (tipoDeInteraccion != InteraccionTipo.PegarAlJugador)
             {
-                Debug.Log("No se puede interactuar mientras sostenés un objeto");
-                return;
+                EjecutarInteraccion();
+                if (promptText != null)
+                    promptText.SetActive(false);
             }
-
-            EjecutarInteraccion();
-
-            if (promptText != null)
-                promptText.SetActive(false);
         }
     }
 
@@ -63,6 +61,10 @@ public class InteractableObject : MonoBehaviour
             case InteraccionTipo.Destruir:
                 Destroy(gameObject);
                 break;
+
+            case InteraccionTipo.PegarAlJugador:
+                // Esta lógica está gestionada por PlayerPickup, así que no se ejecuta desde acá.
+                break;
         }
 
         gameObject.tag = "Untagged";
@@ -75,7 +77,7 @@ public class InteractableObject : MonoBehaviour
             jugadorCerca = true;
             jugador = other.transform;
 
-            if (promptText != null)
+            if (promptText != null && tipoDeInteraccion != InteraccionTipo.PegarAlJugador)
                 promptText.SetActive(true);
         }
     }

@@ -7,6 +7,8 @@ TagManager:
   - Skateboard
   - Interactable
   - Pickup
+  - Zona
+  - ZonaObjetivo
   layers:
   - Default
   - TransparentFX

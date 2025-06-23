@@ -32,6 +32,5 @@ void UpdateAnimation(Vector2 movement)
     animator.SetFloat("MoveY", movement.y);
     bool isMoving = movement != Vector2.zero;
     animator.SetBool("IsMoving", isMoving);
-    Debug.Log("IsMoving: " + isMoving);
 }
 }

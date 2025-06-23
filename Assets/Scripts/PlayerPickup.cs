@@ -4,28 +4,17 @@ public class PlayerPickup : MonoBehaviour
 {
     public Transform holdPoint;
     private GameObject heldObject;
-    private bool isHolding = false;
 
     void Update()
     {
-        // Si estás sosteniendo algo con G, bloquear SPACE
-        if (isHolding && Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKey(KeyCode.G))
         {
-            Debug.Log("No se puede limpiar mientras sostenés un objeto.");
-            return;
-        }
-
-        // Si presionás G, agarrar
-        if (Input.GetKeyDown(KeyCode.G))
-        {
-            if (!isHolding)
+            if (heldObject == null)
                 TryPickup();
         }
-
-        // Si soltás G, soltar
-        if (Input.GetKeyUp(KeyCode.G))
+        else
         {
-            if (isHolding)
+            if (heldObject != null)
                 DropObject();
         }
     }
@@ -44,10 +33,9 @@ public class PlayerPickup : MonoBehaviour
                 if (heldObject.TryGetComponent(out Rigidbody2D rb))
                     rb.simulated = false;
 
-                if (heldObject.TryGetComponent(out Collider2D col2D))
-                    col2D.enabled = false;
+                if (heldObject.TryGetComponent(out Collider2D collider))
+                    collider.enabled = false;
 
-                isHolding = true;
                 break;
             }
         }
@@ -62,15 +50,19 @@ public class PlayerPickup : MonoBehaviour
         if (heldObject.TryGetComponent(out Rigidbody2D rb))
             rb.simulated = true;
 
-        if (heldObject.TryGetComponent(out Collider2D col2D))
-            col2D.enabled = true;
+        if (heldObject.TryGetComponent(out Collider2D collider))
+            collider.enabled = true;
 
         heldObject = null;
-        isHolding = false;
     }
 
-    public bool EstáSosteniendo()
+    public bool IsHolding(GameObject obj)
     {
-        return isHolding;
+        return heldObject == obj;
+    }
+
+    public void ForzarSoltar()
+    {
+        DropObject();
     }
 }

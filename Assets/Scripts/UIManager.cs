@@ -1,6 +1,9 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
@@ -9,6 +12,8 @@ public class UIManager : MonoBehaviour
     public GameObject gameOverScreen;
     public GameObject titleScreen;
     public GameObject caosometroUI;
+    public Sprite forzarSprite1;
+    public GameObject introAnimacionGO; // Objeto con SpriteRenderer y Animator
     public Image gameOverBackground;
     public Sprite finalPerfecto;
     public Sprite finalDesordenado;
@@ -33,9 +38,9 @@ public class UIManager : MonoBehaviour
         if (gameOverScreen != null)
             gameOverScreen.SetActive(false);
 
-        // // Ocultar animación de introducción si está asignada
-        // if (introAnimacionGO != null)
-        //     introAnimacionGO.SetActive(false);
+        // Ocultar animación de introducción si está asignada
+        if (introAnimacionGO != null)
+            introAnimacionGO.SetActive(false);
     }
 
     public void OnPlayPressed()
@@ -44,18 +49,18 @@ public class UIManager : MonoBehaviour
         if (mainUI != null) mainUI.SetActive(true);
         if (caosometroUI != null) caosometroUI.SetActive(true);
 
-        // // 🔒 Desactivar movimiento del jugador
-        // var jugador = GameObject.FindGameObjectWithTag("Player");
-        // if (jugador != null)
-        // {
-        //     var movimiento = jugador.GetComponent<Movement>();
-        //     if (movimiento != null)
-        //         movimiento.SetMovimientoHabilitado(false);
-        // }
+        // 🔒 Desactivar movimiento del jugador
+        var jugador = GameObject.FindGameObjectWithTag("Player");
+        if (jugador != null)
+        {
+            var movimiento = jugador.GetComponent<Movement>();
+            if (movimiento != null)
+                movimiento.SetMovimientoHabilitado(false);
+        }
 
-        // // Activar intro al empezar el juego
-        // if (introAnimacionGO != null)
-        //     introAnimacionGO.SetActive(true);
+        // Activar intro al empezar el juego
+        if (introAnimacionGO != null)
+            introAnimacionGO.SetActive(true);
 
         GameManager.Instance.StartGame();
     }

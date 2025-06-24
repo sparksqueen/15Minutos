@@ -12,12 +12,13 @@ public class UIManager : MonoBehaviour
     public GameObject gameOverScreen;
     public GameObject titleScreen;
     public GameObject caosometroUI;
-    public Sprite forzarSprite1;
+    // public Sprite forzarSprite1;
     public GameObject introAnimacionGO; // Objeto con SpriteRenderer y Animator
-    public Image gameOverBackground;
-    public Sprite finalPerfecto;
-    public Sprite finalDesordenado;
-    public Sprite finalCatastrofico;
+    // public Image gameOverBackground;
+    // public Sprite finalPerfecto;
+    // public Sprite finalDesordenado;
+    // public Sprite finalCatastrofico;
+    public GameObject finalPerfectoUI; // Asignalo desde el inspector
 
     private void Awake()
     {
@@ -65,40 +66,25 @@ public class UIManager : MonoBehaviour
         GameManager.Instance.StartGame();
     }
 
-    public void ShowGameOver(string finalText)
+public void ShowGameOver(string finalText)
+{
+    if (gameOverScreen != null)
     {
-        Debug.Log("FINAL: " + finalText);
+        gameOverScreen.SetActive(true);
+    }
+    Time.timeScale = 0f; // dejalo por ahora
+}
 
-        if (gameOverScreen != null)
-            gameOverScreen.SetActive(true);
 
-        var texto = gameOverScreen.GetComponentInChildren<TextMeshProUGUI>();
-        if (texto != null)
-            texto.text = finalText;
 
-        if (gameOverBackground != null)
-        {
-            if (finalText.ToLower().Contains("perfecto"))
-            {
-                gameOverBackground.sprite = finalPerfecto;
-                Debug.Log("SPRITE ASIGNADO: " + finalPerfecto.name);
-            }
-            else if (finalText.ToLower().Contains("desordenado"))
-            {
-                gameOverBackground.sprite = finalDesordenado;
-                Debug.Log("SPRITE ASIGNADO: " + finalDesordenado.name);
-            }
-            else
-            {
-                gameOverBackground.sprite = finalCatastrofico;
-                Debug.Log("SPRITE ASIGNADO: " + finalCatastrofico.name);
-            }
-
-            gameOverBackground.enabled = false;
-            gameOverBackground.enabled = true; // 🔁 Forzar refresco visual
-        }
-
+    public void ShowFinalPerfecto()
+    {
         if (caosometroUI != null)
             caosometroUI.SetActive(false);
+
+
+        if (finalPerfectoUI != null)
+            finalPerfectoUI.SetActive(true);
     }
+
 }

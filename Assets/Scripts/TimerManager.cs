@@ -47,9 +47,9 @@ public class TimerManager : MonoBehaviour
 
         if (tiempoTranscurrido >= duracionReal)
         {
-            GameManager.Instance.EndGame();
             juegoTerminado = true;
             tiempoVisibleRestante = 0;
+            UIManager.Instance.ShowGameOver("GameOver");
         }
 
         UpdateUI(tiempoVisibleRestante);

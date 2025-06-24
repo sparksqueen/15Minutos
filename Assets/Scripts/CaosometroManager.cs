@@ -34,7 +34,8 @@ public class CaosometroManager : MonoBehaviour
 
         if (objetosRestantes == 0)
         {
-            UIManager.Instance.ShowGameOver("Final perfecto");
+            UIManager.Instance.ShowFinalPerfecto();
+
         }
     }
 

@@ -22,7 +22,7 @@ public class FinalEvaluator : MonoBehaviour
     {
         int percent = TaskManager.Instance.GetCompletionPercent();
 
-        if (percent >= 90) UIManager.Instance.ShowGameOver("Final Perfecto");
+        if (percent == 100) UIManager.Instance.ShowGameOver("Final Perfecto");
         else if (percent >= 50) UIManager.Instance.ShowGameOver("Final Meh");
         else UIManager.Instance.ShowGameOver("Final Catastrófico");
     }

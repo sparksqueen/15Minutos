@@ -3809,7 +3809,7 @@ GameObject:
   - component: {fileID: 318255953}
   m_Layer: 0
   m_Name: Tissue
-  m_TagString: Pickup
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6989,7 +6989,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 1638899958, guid: 919ff309c6b87b14c9bf12abd4e7cfbc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7574,7 +7574,7 @@ GameObject:
   - component: {fileID: 827693329}
   m_Layer: 0
   m_Name: CookerHood
-  m_TagString: Interactable
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8592,7 +8592,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: -1457996820, guid: e54b12f5c6e3cf64d8a37812f51d0344, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9872,7 +9872,7 @@ GameObject:
   - component: {fileID: 1093455885}
   m_Layer: 0
   m_Name: RottenFood3
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11663,7 +11663,7 @@ GameObject:
   - component: {fileID: 1244620940}
   m_Layer: 0
   m_Name: Oven
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12242,7 +12242,7 @@ GameObject:
   - component: {fileID: 1326214126}
   m_Layer: 0
   m_Name: RottenFood2
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13813,7 +13813,7 @@ GameObject:
   - component: {fileID: 1512174172}
   m_Layer: 0
   m_Name: RottenFood4
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15230,7 +15230,7 @@ GameObject:
   - component: {fileID: 1708072962}
   m_Layer: 0
   m_Name: RottenFood
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17103,7 +17103,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: -1457996820, guid: e54b12f5c6e3cf64d8a37812f51d0344, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

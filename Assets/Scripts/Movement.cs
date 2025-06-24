@@ -8,6 +8,7 @@ public class Movement : MonoBehaviour
 
     private Animator animator;
     private SpriteRenderer spriteRenderer;
+    private bool puedeMoverse = true;
 
     void Start()
     {
@@ -17,6 +18,13 @@ public class Movement : MonoBehaviour
 
     void Update()
     {
+        if (!puedeMoverse)
+        {
+            // Asegurarse de que la animación se detenga si está bloqueado
+            UpdateAnimation(Vector2.zero);
+            return;
+        }
+
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
 
@@ -26,11 +34,17 @@ public class Movement : MonoBehaviour
         UpdateAnimation(movement);
     }
 
-void UpdateAnimation(Vector2 movement)
-{
-    animator.SetFloat("MoveX", movement.x);
-    animator.SetFloat("MoveY", movement.y);
-    bool isMoving = movement != Vector2.zero;
-    animator.SetBool("IsMoving", isMoving);
-}
+    void UpdateAnimation(Vector2 movement)
+    {
+        animator.SetFloat("MoveX", movement.x);
+        animator.SetFloat("MoveY", movement.y);
+        bool isMoving = movement != Vector2.zero;
+        animator.SetBool("IsMoving", isMoving);
+    }
+
+    // Método público para habilitar o deshabilitar movimiento
+    public void SetMovimientoHabilitado(bool activo)
+    {
+        puedeMoverse = activo;
+    }
 }

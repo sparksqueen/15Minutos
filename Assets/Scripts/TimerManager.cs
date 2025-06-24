@@ -1,40 +1,72 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-
-
 
 public class TimerManager : MonoBehaviour
 {
     public static TimerManager Instance;
-    public float timeLeft = 900f; // 15 min
+
     public TextMeshProUGUI timerText;
 
-    private void Awake() {
-        if (Instance == null) Instance = this;
+    public float duracionReal = 480f; // 8 minutos reales
+    public float duracionVisible = 900f; // 15 minutos visibles en el reloj
+
+    private float tiempoTranscurrido = 0f;
+    private bool juegoTerminado = false;
+    private bool evento1 = false;
+    private bool evento2 = false;
+
+    void Awake()
+    {
+        if (Instance == null)
+            Instance = this;
+        else
+            Destroy(gameObject);
     }
 
-    void Update() {
-        if (!GameManager.Instance.gameActive) return;
+    void Update()
+    {
+        if (GameManager.Instance == null || !GameManager.Instance.gameActive || juegoTerminado) return;
 
-        timeLeft -= Time.deltaTime;
-        UpdateUI();
+        tiempoTranscurrido += Time.deltaTime;
 
-        if (Mathf.Approximately(timeLeft, 600f)) EventTrigger.Instance.TriggerEvent(1); // minuto 5
-        if (Mathf.Approximately(timeLeft, 300f)) EventTrigger.Instance.TriggerEvent(2); // minuto 10
+        float proporcion = Mathf.Clamp01(tiempoTranscurrido / duracionReal);
+        float tiempoVisibleRestante = duracionVisible * (1 - proporcion);
 
-        if (timeLeft <= 0f) GameManager.Instance.EndGame();
+        if (!evento1 && tiempoVisibleRestante <= 600f)
+        {
+            EventTrigger.Instance.TriggerEvent(1);
+            evento1 = true;
+        }
+
+        if (!evento2 && tiempoVisibleRestante <= 300f)
+        {
+            EventTrigger.Instance.TriggerEvent(2);
+            evento2 = true;
+        }
+
+        if (tiempoTranscurrido >= duracionReal)
+        {
+            GameManager.Instance.EndGame();
+            juegoTerminado = true;
+            tiempoVisibleRestante = 0;
+        }
+
+        UpdateUI(tiempoVisibleRestante);
     }
 
-    void UpdateUI() {
-        int min = Mathf.FloorToInt(timeLeft / 60);
-        int sec = Mathf.FloorToInt(timeLeft % 60);
+    void UpdateUI(float visibleTime)
+    {
+        int min = Mathf.FloorToInt(visibleTime / 60);
+        int sec = Mathf.FloorToInt(visibleTime % 60);
         timerText.text = $"{min:00}:{sec:00}";
     }
 
-    public void StartTimer() {
-        timeLeft = 900f;
+    public void StartTimer()
+    {
+        tiempoTranscurrido = 0f;
+        juegoTerminado = false;
+        evento1 = false;
+        evento2 = false;
     }
 }
-

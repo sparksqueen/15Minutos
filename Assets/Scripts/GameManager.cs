@@ -9,12 +9,21 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
-        if (Instance == null) Instance = this;
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(this.gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
     public void StartGame()
     {
         gameActive = true;
+        //este lo tiene comentado
         TimerManager.Instance.StartTimer();
         TaskManager.Instance.EnableAllTasks();
     }
@@ -24,11 +33,10 @@ public class GameManager : MonoBehaviour
         gameActive = false;
         FinalEvaluator.Instance.Evaluate();
     }
-    
-    // esto es para testear 
-//     void Start()
-// {
-//     StartGame();
-// }
 
+    // esto es para testear 
+    //     void Start()
+    // {
+    //     StartGame();
+    // }
 }

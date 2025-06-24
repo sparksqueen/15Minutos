@@ -108,7 +108,7 @@ public class InteractableObject : MonoBehaviour
                 promptText.SetActive(true);
                 var tmp = promptText.GetComponentInChildren<TMP_Text>();
                 if (tmp != null)
-                    tmp.text = "Mantenga G para mover";
+                    tmp.text = "Mantenga G para mover o M para ver el mapa";
             }
         }
     }

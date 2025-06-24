@@ -8,17 +8,13 @@ using UnityEngine.SceneManagement;
 public class UIManager : MonoBehaviour
 {
     public static UIManager Instance;
+
     public GameObject mainUI;
     public GameObject gameOverScreen;
     public GameObject titleScreen;
     public GameObject caosometroUI;
-    // public Sprite forzarSprite1;
-    public GameObject introAnimacionGO; // Objeto con SpriteRenderer y Animator
-    // public Image gameOverBackground;
-    // public Sprite finalPerfecto;
-    // public Sprite finalDesordenado;
-    // public Sprite finalCatastrofico;
-    public GameObject finalPerfectoUI; // Asignalo desde el inspector
+    public GameObject introAnimacionGO;
+    public GameObject finalPerfectoUI;
 
     private void Awake()
     {
@@ -31,18 +27,39 @@ public class UIManager : MonoBehaviour
             Destroy(gameObject);
         }
 
-        // Ocultar caosómetro al inicio
+        // Ocultar UI al inicio
         if (caosometroUI != null)
             caosometroUI.SetActive(false);
 
-        // Ocultar pantalla de Game Over
         if (gameOverScreen != null)
             gameOverScreen.SetActive(false);
 
-        // Ocultar animación de introducción si está asignada
         if (introAnimacionGO != null)
             introAnimacionGO.SetActive(false);
     }
+
+private void Start()
+{
+    StartCoroutine(ResetearMusica());
+}
+
+private IEnumerator ResetearMusica()
+{
+    var local = FindObjectOfType<MusicController>();
+
+    if (MusicController.Instance != null && MusicController.Instance != local)
+    {
+        Destroy(MusicController.Instance.gameObject);
+        yield return null; // 🕐 Espera 1 frame para que se destruya completamente
+    }
+
+    // ✅ Ahora sí, instanciar el nuevo
+    if (MusicController.Instance == null)
+    {
+        Instantiate(Resources.Load<GameObject>("Prefabs/MusicManager"));
+    }
+}
+
 
     public void OnPlayPressed()
     {
@@ -59,32 +76,24 @@ public class UIManager : MonoBehaviour
                 movimiento.SetMovimientoHabilitado(false);
         }
 
-        // Activar intro al empezar el juego
-        if (introAnimacionGO != null)
-            introAnimacionGO.SetActive(true);
-
         GameManager.Instance.StartGame();
     }
 
-public void ShowGameOver(string finalText)
-{
-    if (gameOverScreen != null)
+    public void ShowGameOver(string finalText)
     {
-        gameOverScreen.SetActive(true);
+        if (gameOverScreen != null)
+        {
+            gameOverScreen.SetActive(true);
+        }
+        Time.timeScale = 0f;
     }
-    Time.timeScale = 0f; // dejalo por ahora
-}
-
-
 
     public void ShowFinalPerfecto()
     {
         if (caosometroUI != null)
             caosometroUI.SetActive(false);
 
-
         if (finalPerfectoUI != null)
             finalPerfectoUI.SetActive(true);
     }
-
 }

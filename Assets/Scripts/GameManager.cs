@@ -24,7 +24,7 @@ public class GameManager : MonoBehaviour
 {
     gameActive = true;
 
-    // ▶️ Forzar que la animación empiece en el momento exacto
+  
     if (UIManager.Instance != null && UIManager.Instance.introAnimacionGO != null)
     {
         GameObject animGO = UIManager.Instance.introAnimacionGO;
@@ -33,13 +33,13 @@ public class GameManager : MonoBehaviour
         Animator animator = animGO.GetComponent<Animator>();
         if (animator != null)
         {
-            animator.enabled = false;                 // Reiniciamos la animación
+            animator.enabled = false; 
             animator.enabled = true;
-            animator.Play(0, -1, 0f);                 // Frame 0 del default
+            animator.Play(0, -1, 0f); 
         }
     }
 
-    TimerManager.Instance.StartTimer();         // si está descomentado
+    TimerManager.Instance.StartTimer(); 
     TaskManager.Instance.EnableAllTasks();
 }
 

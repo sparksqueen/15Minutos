@@ -46,20 +46,16 @@ private void Start()
 private IEnumerator ResetearMusica()
 {
     var local = FindObjectOfType<MusicController>();
-
     if (MusicController.Instance != null && MusicController.Instance != local)
     {
         Destroy(MusicController.Instance.gameObject);
-        yield return null; // 🕐 Espera 1 frame para que se destruya completamente
+        yield return null; 
     }
-
-    // ✅ Ahora sí, instanciar el nuevo
     if (MusicController.Instance == null)
     {
         Instantiate(Resources.Load<GameObject>("Prefabs/MusicManager"));
     }
 }
-
 
     public void OnPlayPressed()
     {
@@ -67,7 +63,6 @@ private IEnumerator ResetearMusica()
         if (mainUI != null) mainUI.SetActive(true);
         if (caosometroUI != null) caosometroUI.SetActive(true);
 
-        // 🔒 Desactivar movimiento del jugador
         var jugador = GameObject.FindGameObjectWithTag("Player");
         if (jugador != null)
         {

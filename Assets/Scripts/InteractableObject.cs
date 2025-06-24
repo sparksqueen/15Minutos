@@ -22,7 +22,7 @@ public class InteractableObject : MonoBehaviour
     private Collider2D col;
     private static GameObject promptText;
 
-    private bool yaContado = false; // ✅ nuevo
+    private bool yaContado = false; 
 
     void Start()
     {

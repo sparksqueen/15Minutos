@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class FinalEvaluator : MonoBehaviour
 {
-    public static FinalEvaluator Instance; // ✅ Esto es lo que te falta
-
+    public static FinalEvaluator Instance; 
     private void Awake()
     {
         if (Instance == null)

@@ -2,18 +2,17 @@ using UnityEngine;
 
 public class IntroAnimacionManager : MonoBehaviour
 {
-    public GameObject uiPrincipal;       // UI del juego
-    public GameObject animacionContainer; // Objeto con las imágenes y animación
+    public GameObject uiPrincipal;
+    public GameObject animacionContainer;
 
     public void FinDeAnimacion()
     {
         if (animacionContainer != null)
-            animacionContainer.SetActive(false); // Oculta la animación
+            animacionContainer.SetActive(false);
 
         if (uiPrincipal != null)
-            uiPrincipal.SetActive(true); // Activa la UI del juego
+            uiPrincipal.SetActive(true);
 
-        // ✅ Rehabilitar movimiento del jugador
         GameObject jugador = GameObject.FindGameObjectWithTag("Player");
         if (jugador != null)
         {

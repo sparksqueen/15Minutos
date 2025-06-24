@@ -16,12 +16,12 @@ public class MusicController : MonoBehaviour
     {
         if (Instance != null && Instance != this)
         {
-            Destroy(gameObject); // Evita duplicados
+            Destroy(gameObject);
             return;
         }
 
         Instance = this;
-        DontDestroyOnLoad(gameObject); // Se conserva entre escenas
+        DontDestroyOnLoad(gameObject);
     }
 
     void Start()

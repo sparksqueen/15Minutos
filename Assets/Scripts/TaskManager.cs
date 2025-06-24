@@ -14,7 +14,7 @@ public class TaskManager : MonoBehaviour
 
     public void EnableAllTasks() {
         completedTasks = 0;
-        // habilitá todos los objetos Task
+
     }
 
     public void RegisterTaskCompletion(string taskName) {

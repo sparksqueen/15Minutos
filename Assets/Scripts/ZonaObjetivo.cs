@@ -23,10 +23,8 @@ public class ZonaObjetivo : MonoBehaviour
 
             if (other.tag == "Pickup") // solo cuenta si era "Pickup"
             {
-                // ✔️ Previene doble conteo
                 other.tag = "Untagged";
 
-                // ✔️ Marca como entregado
                 if (!other.TryGetComponent<YaEntregado>(out _))
                 {
                     other.gameObject.AddComponent<YaEntregado>();

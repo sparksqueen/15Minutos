@@ -11,6 +11,6 @@ public class Task : MonoBehaviour
         if (completed) return;
         completed = true;
         TaskManager.Instance.RegisterTaskCompletion(taskName);
-        gameObject.SetActive(false); // o feedback visual
+        gameObject.SetActive(false); 
     }
 }

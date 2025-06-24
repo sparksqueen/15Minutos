@@ -42,7 +42,6 @@ public class Movement : MonoBehaviour
         animator.SetBool("IsMoving", isMoving);
     }
 
-    // Método público para habilitar o deshabilitar movimiento
     public void SetMovimientoHabilitado(bool activo)
     {
         puedeMoverse = activo;

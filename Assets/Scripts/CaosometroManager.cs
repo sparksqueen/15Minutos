@@ -9,14 +9,11 @@ public class CaosometroManager : MonoBehaviour
 
     void Start()
     {
-        // Contar automáticamente los objetos con tag "Interactable" y "Pickup"
         int interactables = GameObject.FindGameObjectsWithTag("Interactable").Length;
         int pickups = GameObject.FindGameObjectsWithTag("Pickup").Length;
         totalObjetos = interactables + pickups;
-
         objetosRestantes = totalObjetos;
 
-        // Configurar correctamente el slider
         if (caosometroSlider != null)
         {
             caosometroSlider.minValue = 0f;
@@ -34,7 +31,7 @@ public class CaosometroManager : MonoBehaviour
 
         if (objetosRestantes == 0)
         {
-            UIManager.Instance.ShowGameOver("Final perfecto");
+            GameManager.Instance.EndGame(true);
         }
     }
 
@@ -46,9 +43,7 @@ public class CaosometroManager : MonoBehaviour
     void ActualizarBarra()
     {
         if (caosometroSlider == null || totalObjetos == 0)
-        {
             return;
-        }
 
         float porcentaje = (float)objetosRestantes / totalObjetos;
         caosometroSlider.value = porcentaje;

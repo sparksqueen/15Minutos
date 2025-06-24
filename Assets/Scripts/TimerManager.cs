@@ -8,8 +8,8 @@ public class TimerManager : MonoBehaviour
 
     public TextMeshProUGUI timerText;
 
-    public float duracionReal = 480f; // 8 minutos reales
-    public float duracionVisible = 900f; // 15 minutos visibles en el reloj
+    public float duracionReal = 480f;
+    public float duracionVisible = 900f;
 
     private float tiempoTranscurrido = 0f;
     private bool juegoTerminado = false;

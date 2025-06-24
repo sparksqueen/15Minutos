@@ -1,6 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -23,20 +22,26 @@ public class GameManager : MonoBehaviour
     public void StartGame()
     {
         gameActive = true;
-        //este lo tiene comentado
         TimerManager.Instance.StartTimer();
         TaskManager.Instance.EnableAllTasks();
     }
 
-    public void EndGame()
+public void EndGame(bool ordenPerfecto = false)
+{
+    gameActive = false;
+
+    if (ordenPerfecto)
     {
-        gameActive = false;
-        FinalEvaluator.Instance.Evaluate();
+        SceneManager.LoadScene("FinalPerfectoScene");
+        return;
     }
 
-    // esto es para testear 
-    //     void Start()
-    // {
-    //     StartGame();
-    // }
+    int percent = TaskManager.Instance.GetCompletionPercent();
+
+    if (percent >= 90)
+        SceneManager.LoadScene("FinalPerfectoScene");
+    else
+        SceneManager.LoadScene("GameOverScene");
+}
+
 }

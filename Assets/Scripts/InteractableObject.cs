@@ -56,6 +56,12 @@ public class InteractableObject : MonoBehaviour
             yaContado = true;
         }
 
+        // Play brush sound when cleaning
+        if (SoundManager.Instance != null)
+        {
+            SoundManager.Instance.PlayBrushSound();
+        }
+
         switch (tipoDeInteraccion)
         {
             case InteraccionTipo.CambiarSprite:

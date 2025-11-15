@@ -41,6 +41,7 @@ public class UIManager : MonoBehaviour
 private void Start()
 {
     StartCoroutine(ResetearMusica());
+    StartCoroutine(InicializarSoundManager());
 }
 
 private IEnumerator ResetearMusica()
@@ -54,6 +55,21 @@ private IEnumerator ResetearMusica()
     if (MusicController.Instance == null)
     {
         Instantiate(Resources.Load<GameObject>("Prefabs/MusicManager"));
+    }
+}
+
+private IEnumerator InicializarSoundManager()
+{
+    yield return null; // Esperar un frame
+    var local = FindObjectOfType<SoundManager>();
+    if (SoundManager.Instance != null && SoundManager.Instance != local)
+    {
+        Destroy(SoundManager.Instance.gameObject);
+        yield return null; 
+    }
+    if (SoundManager.Instance == null)
+    {
+        Instantiate(Resources.Load<GameObject>("Prefabs/SoundManager"));
     }
 }
 

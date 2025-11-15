@@ -15,6 +15,7 @@ public class InteractableObject : MonoBehaviour
     public InteraccionTipo tipoDeInteraccion = InteraccionTipo.PegarAlJugador;
     public Sprite spriteLimpio;
     public Vector3 offset = new Vector3(0.5f, 0.5f, 0f);
+    public AudioClip brushSoundClip;
 
     private SpriteRenderer sr;
     private bool jugadorCerca = false;
@@ -22,7 +23,8 @@ public class InteractableObject : MonoBehaviour
     private Collider2D col;
     private static GameObject promptText;
 
-    private bool yaContado = false; 
+    private bool yaContado = false;
+    private static AudioClip brushSound; 
 
     void Start()
     {
@@ -34,6 +36,21 @@ public class InteractableObject : MonoBehaviour
 
         if (promptText != null)
             promptText.SetActive(false);
+
+        // Cargar el sonido de cepillo solo una vez (estático)
+        if (brushSound == null)
+        {
+            // Primero intentar usar el clip asignado desde el Inspector
+            if (brushSoundClip != null)
+            {
+                brushSound = brushSoundClip;
+            }
+            else
+            {
+                // Si no está asignado, intentar cargarlo desde Resources
+                brushSound = Resources.Load<AudioClip>("Audio/brush-83215");
+            }
+        }
     }
 
     void Update()
@@ -56,6 +73,9 @@ public class InteractableObject : MonoBehaviour
             yaContado = true;
         }
 
+        // Reproducir sonido de limpieza
+        ReproducirSonidoLimpieza();
+
         switch (tipoDeInteraccion)
         {
             case InteraccionTipo.CambiarSprite:
@@ -76,6 +96,37 @@ public class InteractableObject : MonoBehaviour
         }
 
         gameObject.tag = "Untagged";
+    }
+
+    void ReproducirSonidoLimpieza()
+    {
+        // Intentar usar SoundManager si está disponible
+        if (SoundManager.Instance != null)
+        {
+            SoundManager.Instance.PlayBrushSound();
+        }
+        else
+        {
+            Debug.LogWarning("InteractableObject: SoundManager.Instance es null, usando fallback");
+            // Fallback: usar el clip estático o el del inspector
+            AudioClip clipToPlay = brushSound != null ? brushSound : brushSoundClip;
+            
+            if (clipToPlay != null)
+            {
+                // Obtener o crear un AudioSource para reproducir el sonido
+                AudioSource audioSource = GetComponent<AudioSource>();
+                if (audioSource == null)
+                {
+                    audioSource = gameObject.AddComponent<AudioSource>();
+                }
+                audioSource.PlayOneShot(clipToPlay);
+                Debug.Log("InteractableObject: Reproduciendo sonido de limpieza (fallback)");
+            }
+            else
+            {
+                Debug.LogWarning("InteractableObject: No hay clip de sonido disponible");
+            }
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)

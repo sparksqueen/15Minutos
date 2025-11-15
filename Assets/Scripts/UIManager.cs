@@ -15,6 +15,7 @@ public class UIManager : MonoBehaviour
     public GameObject caosometroUI;
     public GameObject introAnimacionGO;
     public GameObject finalPerfectoUI;
+    public GameObject levelSelectScreen;
 
     private void Awake()
     {
@@ -36,6 +37,9 @@ public class UIManager : MonoBehaviour
 
         if (introAnimacionGO != null)
             introAnimacionGO.SetActive(false);
+
+        if (levelSelectScreen != null)
+            levelSelectScreen.SetActive(false);
     }
 
 private void Start()
@@ -76,6 +80,12 @@ private IEnumerator InicializarSoundManager()
     public void OnPlayPressed()
     {
         if (titleScreen != null) titleScreen.SetActive(false);
+        if (levelSelectScreen != null) levelSelectScreen.SetActive(true);
+    }
+
+    public void OnLevel2Selected()
+    {
+        if (levelSelectScreen != null) levelSelectScreen.SetActive(false);
         if (mainUI != null) mainUI.SetActive(true);
         if (caosometroUI != null) caosometroUI.SetActive(true);
 

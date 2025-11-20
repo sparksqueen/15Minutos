@@ -1,0 +1,4021 @@
+fileFormatVersion: 2
+guid: d5df258cdded98d41819b0cd17296ad9
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 22_Museum_32x32_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3773
+        width: 196
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca1edf92e4768c438b9350d4ef48d86
+      internalID: -295114760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_1
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 3787
+        width: 64
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e918cfa259213d499f19ec61e24484d
+      internalID: 2026274365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_2
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 3712
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a2396b85a5195945812173bf3f7e6db
+      internalID: 1206396546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3651
+        width: 290
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48168dd203256ad48a4698533ed9dd89
+      internalID: 1908302735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_4
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 3714
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4324fcf5b307dcb45a6bd1119cad768a
+      internalID: 553591671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_5
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 3650
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10435851f417a034bb9f64e904a819a1
+      internalID: -1028325075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3581
+        width: 64
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f49248d542a60314e9f63cb389ebc0cb
+      internalID: -1351989703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_7
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 3550
+        width: 53
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b183ab220986a44cbfc5fa87402ef0f
+      internalID: -417865711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_8
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 3594
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f19ceb5c2460b43b72c40f6a6993e3
+      internalID: -1903609790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_9
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 3592
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05612e6f6e55124584218a98d3188c8
+      internalID: -1842482190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_10
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 3594
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 018fa4a50bc0df04d8fbe4f70ac69526
+      internalID: 770003113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_11
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 3592
+        width: 64
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1fe8ba0bf992524ea9be7c63b23d167
+      internalID: -1855424270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3455
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a69b23b37698d894e9d0ad91251cfd4b
+      internalID: -350628863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_13
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 3550
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc24d78b5a8e0c49aefd0c5720a763a
+      internalID: -549653779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_14
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 3550
+        width: 56
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103b9d17dcfed844c955403dce599b5e
+      internalID: -1268268608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_15
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 3529
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2814443832ac8324baeae30e18a84fd7
+      internalID: -603912585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_16
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 3529
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca19a93e1b20d7a4ca986899749a283d
+      internalID: -1225395450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_17
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 3529
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4555a593205550f45988642358988f7a
+      internalID: 1470315098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_18
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 3528
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b5a3823310821c4d87f2b5af1c43c29
+      internalID: 1646981742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_19
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 3459
+        width: 29
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e721437dde0eba4389674c1b9dc8f2f
+      internalID: -1165874779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_20
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 3466
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abaa669cf458f544b80c4a0f456921eb
+      internalID: 810063550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_21
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 3466
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab53fa1e2c2d374db69091fe39cebb1
+      internalID: -454867006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_22
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 3470
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1b3865b2db7994d8d2bd34eab4f597
+      internalID: -1986763127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_23
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 3470
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ede06b5165be04ba4e305c93b5bf40
+      internalID: 1671281365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_24
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 3470
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91d0742ef74f7744b6a39c05888ad9f
+      internalID: -1157956452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3359
+        width: 64
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d4557e109e068c4787d1879d7125b1d
+      internalID: -2012144853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_26
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 3308
+        width: 80
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ff63390cf662c40b3e664ef8c1e51f
+      internalID: 1794373215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_27
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 3310
+        width: 17
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1342811788dd2a04cb0a33c02fb0a749
+      internalID: 1772366619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_28
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 3293
+        width: 17
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a181fb2a5de5f4e42864d2299ee77a3c
+      internalID: 1168552812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_29
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 3308
+        width: 80
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f0fa5661f60324f8f4b87f09d6a590
+      internalID: -124451713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_30
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 3310
+        width: 17
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46007e2de472db8468a3dcf32a12dc72
+      internalID: -885667418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_31
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 3293
+        width: 17
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8813cd99dcd29604fa09d91d40d4ac8b
+      internalID: -1074803854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_32
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 3308
+        width: 80
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 799d6992ae79d2841a3c2eb65776d3bb
+      internalID: -1025832311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_33
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 3310
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35c171fefb1ff2740991e9921d0ed5b3
+      internalID: -1848308663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_34
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 3293
+        width: 17
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef06d96f3ce65bb45af8688c38451c96
+      internalID: -2030970249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_35
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3202
+        width: 59
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7078152c6c759a94faa039d34dfe0689
+      internalID: -477888886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_36
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 3171
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d413a2094f7384aa30fa7294248e04
+      internalID: 1336506551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_37
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2839
+        width: 19
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4467ae3630af43b4daac445e6cac92f6
+      internalID: 117682984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_38
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 2950
+        width: 57
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d57af62cb410d499c0bdacda7f08d8
+      internalID: -624876361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_39
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 2914
+        width: 64
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4129492aeff4eca46a3f29a805f628eb
+      internalID: 1852601940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2762
+        width: 63
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42105ac9b602d5409ef662ee30b2f9c
+      internalID: 407056067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_41
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 2755
+        width: 127
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 65, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd2dddcc080b7d4eb0a0c327450174c
+      internalID: -359367706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2687
+        width: 64
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 563aa922c128bfb4db11ac8f4c44a056
+      internalID: -1087905392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_43
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 2691
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86182cf48ae7490428688aad0e69239c
+      internalID: -1869745766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_44
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2704
+        width: 94
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2dd814dceeeef4b8a010efca06e84a
+      internalID: -877940554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_45
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 2704
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e508a3d172f1e364e8ab3aaa06b8b01a
+      internalID: -869684505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_46
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2704
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628a8eb9e0cafc04f86e3e4bb34ab610
+      internalID: -674645608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_47
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 2687
+        width: 96
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c333f2bb70c475d4b9b77763f97fb0a0
+      internalID: -1133987813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2601
+        width: 29
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3feffeeb04a8b644fac2a9b6c1c98e0c
+      internalID: -2001536344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_49
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 2596
+        width: 67
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 4, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df19bdfc3616fb44d99ccd3d1c57adc2
+      internalID: -2076158494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2536
+        width: 193
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c82d025b91007428a04e2acbd26cdb
+      internalID: -1091334412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_51
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 2079
+        width: 63
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78df1c502842b194ea242afd710ede93
+      internalID: 1565415096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2471
+        width: 193
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad11aa4e97432c4da1843d6bc82c177
+      internalID: -1270831347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_53
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2418
+        width: 59
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c72d90fd32b9d874c82fecb03a82c6ec
+      internalID: 122635968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_54
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 2407
+        width: 66
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe393f0e7081901438e32f79f9c45e4e
+      internalID: -1763360012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_55
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 2081
+        width: 64
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114181a48859b4144b5cff6fc03e1cdc
+      internalID: 1407855661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2311
+        width: 33
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6161e3434f1e7fd4da3195b0e4875892
+      internalID: -1609247027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_57
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 2313
+        width: 63
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf691c4e120ad440a62d5670ab75a39
+      internalID: -1924847729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_58
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2207
+        width: 63
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90bc97349e699314aa1d1eb918a42357
+      internalID: -359041649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_59
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 2207
+        width: 57
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a3b56e857308c04eba77fe0b6135580
+      internalID: 1222121202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_60
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 2207
+        width: 57
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e7c3b5407a6a6c4e8ccb48699c808fa
+      internalID: -818170933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_61
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 2081
+        width: 62
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 826d5b87fa6fad842990d5664ea107f3
+      internalID: -400608975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_62
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2095
+        width: 63
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d8bf4ec9496774a9fcd9f856c6c872
+      internalID: 660216335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_63
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 2100
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c797f672663883b4c98d837ef13e526b
+      internalID: -2123066695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_64
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 2035
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2328f3000c177f4ea203157aaf485f3
+      internalID: 72456383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_65
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 1982
+        width: 66
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2839e99c629c674dbc9de12d4e882b0
+      internalID: 2001296642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_66
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 1854
+        width: 195
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 98, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dce7ce216ea7894c887b44ebfcf279c
+      internalID: -1338895630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_67
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1760
+        width: 61
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2952e25bef0d0f4bafe2eef14d9dd63
+      internalID: -1473214901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_68
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 1442
+        width: 63
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb57247f9b71f646b4cb1dcff1fea1a
+      internalID: 2067963908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_69
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1320
+        width: 127
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 773759da69fce7e40a028330039dad96
+      internalID: -606519499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_70
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1322
+        width: 126
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16fc12e013ef794480c639ef296c82c
+      internalID: 450827880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_71
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1213
+        width: 115
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b90aa91362131341a140cdc64396480
+      internalID: 1580785826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1218
+        width: 146
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24a260795cdb7944b32cf6a5c5dce74
+      internalID: -820246066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_73
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 1213
+        width: 127
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56f87226cbe549458a885e3cb17165a
+      internalID: 901913282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_74
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 958
+        width: 142
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b73ee1fc8f5fb4983eeba959468569
+      internalID: 970784390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_75
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1086
+        width: 144
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e602a99ca942c45a310f752a2cf717
+      internalID: 1639568308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_76
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 958
+        width: 126
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b03f0a4ff099d44ca66e73334b616f7
+      internalID: -918514520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_77
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1085
+        width: 152
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfbd474651432114c9938f318737a3b8
+      internalID: 945150397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 868
+        width: 161
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad6380a8c28f3b44a0675c919b29c97
+      internalID: 1387107432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_79
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 868
+        width: 132
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b09e7458b3313345968e5f5e64fceae
+      internalID: -1732889750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_80
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 856
+        width: 163
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3202c19a8de226a4f93d33bde400dad7
+      internalID: -75084846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_81
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 567
+        width: 161
+        height: 286
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f16f746239fd17408ea91e73ecb5c66
+      internalID: -748895550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_82
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 542
+        width: 149
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2117d6b0ba47202498c8d8eeea9f6907
+      internalID: 391470298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_83
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 754
+        width: 145
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426e18451e7180e48b4a4d521f03c739
+      internalID: -805069692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_84
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 446
+        width: 127
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b1d200daac38344b11b86a78bb1bca
+      internalID: 535198890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_85
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 447
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df217bee6142ea54a8364c9c48abb1f3
+      internalID: 966178417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_86
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 392
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c477d97ffffb24cb489092b06c60a2
+      internalID: 636780919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_87
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 387
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00825a53c1a829249a4acf436ee263b7
+      internalID: 1375449191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 30
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f13232c3ba2db40bd8db6aa0c4c033
+      internalID: -1897458831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_89
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 196
+        width: 97
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc89f0da1530444481224599300dad3
+      internalID: 1421208737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_90
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 3
+        width: 101
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7edfaf317fd727843bf81f6db2ecd0bd
+      internalID: -128616056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_91
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 55
+        width: 96
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf5c27e3ee94054f8397c7a25546725
+      internalID: 1847881736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_92
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 3775
+        width: 101
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 356febbbd27feb348af1637e1b11cfd5
+      internalID: 704157827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_93
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 3458
+        width: 59
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bcef50750084a14e9097d57da39f135
+      internalID: -2098951579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_94
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3458
+        width: 66
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d794c3bbbd849648b1ed3e2582ed676
+      internalID: 1433553539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_95
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 3457
+        width: 63
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5586c5578ff1b14f865d4c94c6d1c59
+      internalID: 2087499601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_96
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 3359
+        width: 62
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd751cad127dc344982f5fd98fc1314
+      internalID: -870539893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_97
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 3359
+        width: 67
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a01369899878c4f8846438bc31f506
+      internalID: -1323995247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_98
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 3359
+        width: 63
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3eab3be9130ca40a73092ad6ffa443
+      internalID: -191539015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_99
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3360
+        width: 65
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d169d6ad7cb8c842a8efb36adce552e
+      internalID: -1008519338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_100
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3521
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7cce2b3b3c4de34aa8f55ba6a113089
+      internalID: -1501431754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_101
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 3361
+        width: 30
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79197f485f05514d86986b5c13892c6
+      internalID: 1230642281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_102
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 3363
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b5f691643f19240b52631dfc357169
+      internalID: -192921719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_103
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 3362
+        width: 32
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f19708c94ca46214fab732fa91c12cdf
+      internalID: -1108700435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_104
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 3363
+        width: 31
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a8a50ac59fa9745b4ac556e1dceb51
+      internalID: -1731201209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_105
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 3363
+        width: 32
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb939182eee29e747b96dfb2ed31881c
+      internalID: 1163822797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_106
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 3363
+        width: 31
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d67b0d0fd5b42944e9ec5e04c74c2c5d
+      internalID: -867347090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_107
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 3199
+        width: 55
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c765d2b6912a34288ca37dcdb07eed
+      internalID: -830119294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_108
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 3171
+        width: 63
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b9d6cc79412f0c40a4cd76e23d1db17
+      internalID: 1460406685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_109
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3107
+        width: 64
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e73196f56ed84445904f465d9b4d0f6
+      internalID: 239316778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_110
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 3108
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e705a9d5523e7a409569944581f3a6c
+      internalID: -1460719642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_111
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 3165
+        width: 66
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad27522311730844a670fbc2ae7070c
+      internalID: 1309750325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_112
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 3044
+        width: 34
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6180aba9ee575348b15c0921c8dbf29
+      internalID: 1996079161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_113
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2980
+        width: 65
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 337a0963317df8445ab80ef9305e37cd
+      internalID: 1268621790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_114
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 3045
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1465f56ca3c43044a01d2be3afdd190
+      internalID: -1633534328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_115
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 3131
+        width: 64
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f41b5d5dc1d731140882179e1999c060
+      internalID: -1337903898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_116
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3142
+        width: 64
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 347eab0c390670648a60f460c68f865d
+      internalID: 1580465328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_117
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3078
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42953bad612673b4ab04db19ef554b1b
+      internalID: 1552534302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_118
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 3072
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256ccfbee286ca043b1a42d0505a305e
+      internalID: -1393214882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_119
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 3046
+        width: 64
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4211cf7d49f97b544bb4ece1e9273c8a
+      internalID: 1627041274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_120
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 2933
+        width: 60
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa00b4031eb24d439d61f60cd123937
+      internalID: -1712938305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_121
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2934
+        width: 65
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4246cc49f5dc543a86a3219eabaf88
+      internalID: 1849931300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_122
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2845
+        width: 32
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdcbd2daf7ee8b1449ea5d3681580161
+      internalID: -1755480708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_123
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 2819
+        width: 69
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d83a408d97164064f937d8ab98131de7
+      internalID: -1608686134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_124
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 2852
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b40a164f453571444b54e67bf571f5c1
+      internalID: -1958238800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_125
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 2851
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 416a4b71e8a673940a84a5b1db1ca6c4
+      internalID: 166773127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_126
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 2883
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc6f1a74b61bdf45a8d3bbe4b7845a4
+      internalID: -474354260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_127
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 2762
+        width: 62
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da82a67a068ff314bb4936eb14f9a233
+      internalID: -1919929065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_128
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 2943
+        width: 61
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66583477eab59cf4e9bd58dc640499a8
+      internalID: -126051392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_129
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 2880
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 854063ee18b424942a5826dfb3707f9b
+      internalID: -641843616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_130
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 2821
+        width: 121
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc168359dc992af4c88df104169a04d3
+      internalID: 1596231449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_131
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 2760
+        width: 65
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: befaf8afdd2f45b4cb74cdd6214de988
+      internalID: 268904492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_132
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 2038
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac56ea50fdf07754784a9f4e17c83811
+      internalID: 1269392791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_133
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 2032
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f2339278c21acb4390a71c685574f04
+      internalID: 1542043196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_134
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 2038
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9344068eef649c54db1faf6c1d9479ca
+      internalID: -1017819989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_135
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 2118
+        width: 63
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb95717717cdce47b8832f5ff55406b
+      internalID: -1336973243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_136
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1760
+        width: 98
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20273221b227e3c4b90058c3e66cee86
+      internalID: 433242688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_137
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1731
+        width: 62
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb6fc7146b78ea4da6eab0285de7ff7
+      internalID: 234853170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_138
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1731
+        width: 63
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c67b981aace274fb4469b1d38148c2
+      internalID: 1653957565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_139
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1632
+        width: 97
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a397b1862d4b6944b5f31fc8ef410ab
+      internalID: -144303861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_140
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1632
+        width: 63
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b90e354cbfbb6b7439d377ae7f8d5ed6
+      internalID: 822582380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_141
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1633
+        width: 156
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0899110987d73e84f96549279598d459
+      internalID: -95446142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_142
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1665
+        width: 161
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba02af7294b26714bba15334b252f227
+      internalID: -1595046854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_143
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1569
+        width: 62
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 916c6d0a274b78f4ea82736157f65fe1
+      internalID: 800414932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_144
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1568
+        width: 63
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0bf6ef812d318b40a470e8ea2c25435
+      internalID: 2100315087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_145
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1567
+        width: 64
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c14a41686876147a1ed87892e4263d
+      internalID: 815338771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_146
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1472
+        width: 63
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d969e4a19175e4741a2392ccb43e685d
+      internalID: 918706054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_147
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1440
+        width: 64
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a701e835984944eaf028fba1656a01
+      internalID: 1073151155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_148
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 959
+        width: 150
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86c30af5d4ad4694f99cf8e0ca56d306
+      internalID: -1695885974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_149
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 355
+        width: 96
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b47c0fd795603ec41a270275f54eb003
+      internalID: 492973420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_150
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 390
+        width: 290
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb74fc795f150849b535d309eadf0f2
+      internalID: 624015351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_151
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 352
+        width: 91
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f29e041bc4b7d49839bca89905ec73
+      internalID: 788433399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_152
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 347
+        width: 91
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 110b8fd690132434bb92acebecb2a0ee
+      internalID: 2059843773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_153
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 261
+        width: 96
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c685b314070c8428bf116db41b6ac9
+      internalID: 1450161064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_154
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 317
+        width: 95
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7fa5bc6770a3b743b40e339bacaa7a4
+      internalID: 1712374205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_155
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 281
+        width: 89
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc7701ee86e144d458fef4fc5988ca2a
+      internalID: -1745572424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_156
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 253
+        width: 94
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eabb00adcefc044b9413dbf15216e76
+      internalID: -1915244588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_157
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 134
+        width: 93
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce69091986ab026428a7fffa92a72783
+      internalID: -1316668569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_158
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 281
+        width: 79
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 160d7be6a6d884148872049f320bca18
+      internalID: -1036601708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_159
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 259
+        width: 96
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8ae15c5c86e1e40b1375cbb8b150da
+      internalID: -1276718154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_160
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 198
+        width: 93
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7673c27c08873754a90bc7dba8dd1e5d
+      internalID: -1682503253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_161
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 126
+        width: 94
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d658d868d2dca47b321a60eef75347
+      internalID: 1455602386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_162
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 98
+        width: 99
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ebaf28587711f6418e263cb72fd51c7
+      internalID: 1442842093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_163
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 123
+        width: 92
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25d02c10a0b0c84abe5d0f145f32f08
+      internalID: 203085300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_164
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 67
+        width: 93
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8c545071e670e4485e412a2d7963c5
+      internalID: -623620315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_165
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 163
+        width: 96
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 903dfc93aa0638647a81a39795a1936f
+      internalID: 1896380221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_166
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 198
+        width: 63
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab976504268454e4b88042b91c041fc3
+      internalID: 1994130142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_167
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 323
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e7d233ae5bc3984993bba4f0af21fd1
+      internalID: 1175895931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_168
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 322
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ccfa2e6885eb264a8dbd38de6056132
+      internalID: 1040477644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_169
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 323
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 540cbe2820d25ba4ea31b1accdaf4f19
+      internalID: -589422551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_170
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 290
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc3ac7119ab87c44f9118eadca079a3e
+      internalID: -1798253441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_171
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 97
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d9a66218d7c4f499b46202ebbb4261
+      internalID: -1471501072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_172
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 100
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39cc3dda08f76fa45b2e345529509e9f
+      internalID: 1177008052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_173
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 98
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ae6850414cbb14fbc97e0ede2a7fb0
+      internalID: 1851075876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_174
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 134
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c5567aee077c84d9772a430228d4bf
+      internalID: -304790930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_175
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 135
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 068d4b59521459e45b45ae3e2ec63093
+      internalID: 1264003654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22_Museum_32x32_176
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 131
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca1785ed5e538f64b8f37d84431650d9
+      internalID: -2076071422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      22_Museum_32x32_0: -295114760
+      22_Museum_32x32_1: 2026274365
+      22_Museum_32x32_10: 770003113
+      22_Museum_32x32_100: -1501431754
+      22_Museum_32x32_101: 1230642281
+      22_Museum_32x32_102: -192921719
+      22_Museum_32x32_103: -1108700435
+      22_Museum_32x32_104: -1731201209
+      22_Museum_32x32_105: 1163822797
+      22_Museum_32x32_106: -867347090
+      22_Museum_32x32_107: -830119294
+      22_Museum_32x32_108: 1460406685
+      22_Museum_32x32_109: 239316778
+      22_Museum_32x32_11: -1855424270
+      22_Museum_32x32_110: -1460719642
+      22_Museum_32x32_111: 1309750325
+      22_Museum_32x32_112: 1996079161
+      22_Museum_32x32_113: 1268621790
+      22_Museum_32x32_114: -1633534328
+      22_Museum_32x32_115: -1337903898
+      22_Museum_32x32_116: 1580465328
+      22_Museum_32x32_117: 1552534302
+      22_Museum_32x32_118: -1393214882
+      22_Museum_32x32_119: 1627041274
+      22_Museum_32x32_12: -350628863
+      22_Museum_32x32_120: -1712938305
+      22_Museum_32x32_121: 1849931300
+      22_Museum_32x32_122: -1755480708
+      22_Museum_32x32_123: -1608686134
+      22_Museum_32x32_124: -1958238800
+      22_Museum_32x32_125: 166773127
+      22_Museum_32x32_126: -474354260
+      22_Museum_32x32_127: -1919929065
+      22_Museum_32x32_128: -126051392
+      22_Museum_32x32_129: -641843616
+      22_Museum_32x32_13: -549653779
+      22_Museum_32x32_130: 1596231449
+      22_Museum_32x32_131: 268904492
+      22_Museum_32x32_132: 1269392791
+      22_Museum_32x32_133: 1542043196
+      22_Museum_32x32_134: -1017819989
+      22_Museum_32x32_135: -1336973243
+      22_Museum_32x32_136: 433242688
+      22_Museum_32x32_137: 234853170
+      22_Museum_32x32_138: 1653957565
+      22_Museum_32x32_139: -144303861
+      22_Museum_32x32_14: -1268268608
+      22_Museum_32x32_140: 822582380
+      22_Museum_32x32_141: -95446142
+      22_Museum_32x32_142: -1595046854
+      22_Museum_32x32_143: 800414932
+      22_Museum_32x32_144: 2100315087
+      22_Museum_32x32_145: 815338771
+      22_Museum_32x32_146: 918706054
+      22_Museum_32x32_147: 1073151155
+      22_Museum_32x32_148: -1695885974
+      22_Museum_32x32_149: 492973420
+      22_Museum_32x32_15: -603912585
+      22_Museum_32x32_150: 624015351
+      22_Museum_32x32_151: 788433399
+      22_Museum_32x32_152: 2059843773
+      22_Museum_32x32_153: 1450161064
+      22_Museum_32x32_154: 1712374205
+      22_Museum_32x32_155: -1745572424
+      22_Museum_32x32_156: -1915244588
+      22_Museum_32x32_157: -1316668569
+      22_Museum_32x32_158: -1036601708
+      22_Museum_32x32_159: -1276718154
+      22_Museum_32x32_16: -1225395450
+      22_Museum_32x32_160: -1682503253
+      22_Museum_32x32_161: 1455602386
+      22_Museum_32x32_162: 1442842093
+      22_Museum_32x32_163: 203085300
+      22_Museum_32x32_164: -623620315
+      22_Museum_32x32_165: 1896380221
+      22_Museum_32x32_166: 1994130142
+      22_Museum_32x32_167: 1175895931
+      22_Museum_32x32_168: 1040477644
+      22_Museum_32x32_169: -589422551
+      22_Museum_32x32_17: 1470315098
+      22_Museum_32x32_170: -1798253441
+      22_Museum_32x32_171: -1471501072
+      22_Museum_32x32_172: 1177008052
+      22_Museum_32x32_173: 1851075876
+      22_Museum_32x32_174: -304790930
+      22_Museum_32x32_175: 1264003654
+      22_Museum_32x32_176: -2076071422
+      22_Museum_32x32_18: 1646981742
+      22_Museum_32x32_19: -1165874779
+      22_Museum_32x32_2: 1206396546
+      22_Museum_32x32_20: 810063550
+      22_Museum_32x32_21: -454867006
+      22_Museum_32x32_22: -1986763127
+      22_Museum_32x32_23: 1671281365
+      22_Museum_32x32_24: -1157956452
+      22_Museum_32x32_25: -2012144853
+      22_Museum_32x32_26: 1794373215
+      22_Museum_32x32_27: 1772366619
+      22_Museum_32x32_28: 1168552812
+      22_Museum_32x32_29: -124451713
+      22_Museum_32x32_3: 1908302735
+      22_Museum_32x32_30: -885667418
+      22_Museum_32x32_31: -1074803854
+      22_Museum_32x32_32: -1025832311
+      22_Museum_32x32_33: -1848308663
+      22_Museum_32x32_34: -2030970249
+      22_Museum_32x32_35: -477888886
+      22_Museum_32x32_36: 1336506551
+      22_Museum_32x32_37: 117682984
+      22_Museum_32x32_38: -624876361
+      22_Museum_32x32_39: 1852601940
+      22_Museum_32x32_4: 553591671
+      22_Museum_32x32_40: 407056067
+      22_Museum_32x32_41: -359367706
+      22_Museum_32x32_42: -1087905392
+      22_Museum_32x32_43: -1869745766
+      22_Museum_32x32_44: -877940554
+      22_Museum_32x32_45: -869684505
+      22_Museum_32x32_46: -674645608
+      22_Museum_32x32_47: -1133987813
+      22_Museum_32x32_48: -2001536344
+      22_Museum_32x32_49: -2076158494
+      22_Museum_32x32_5: -1028325075
+      22_Museum_32x32_50: -1091334412
+      22_Museum_32x32_51: 1565415096
+      22_Museum_32x32_52: -1270831347
+      22_Museum_32x32_53: 122635968
+      22_Museum_32x32_54: -1763360012
+      22_Museum_32x32_55: 1407855661
+      22_Museum_32x32_56: -1609247027
+      22_Museum_32x32_57: -1924847729
+      22_Museum_32x32_58: -359041649
+      22_Museum_32x32_59: 1222121202
+      22_Museum_32x32_6: -1351989703
+      22_Museum_32x32_60: -818170933
+      22_Museum_32x32_61: -400608975
+      22_Museum_32x32_62: 660216335
+      22_Museum_32x32_63: -2123066695
+      22_Museum_32x32_64: 72456383
+      22_Museum_32x32_65: 2001296642
+      22_Museum_32x32_66: -1338895630
+      22_Museum_32x32_67: -1473214901
+      22_Museum_32x32_68: 2067963908
+      22_Museum_32x32_69: -606519499
+      22_Museum_32x32_7: -417865711
+      22_Museum_32x32_70: 450827880
+      22_Museum_32x32_71: 1580785826
+      22_Museum_32x32_72: -820246066
+      22_Museum_32x32_73: 901913282
+      22_Museum_32x32_74: 970784390
+      22_Museum_32x32_75: 1639568308
+      22_Museum_32x32_76: -918514520
+      22_Museum_32x32_77: 945150397
+      22_Museum_32x32_78: 1387107432
+      22_Museum_32x32_79: -1732889750
+      22_Museum_32x32_8: -1903609790
+      22_Museum_32x32_80: -75084846
+      22_Museum_32x32_81: -748895550
+      22_Museum_32x32_82: 391470298
+      22_Museum_32x32_83: -805069692
+      22_Museum_32x32_84: 535198890
+      22_Museum_32x32_85: 966178417
+      22_Museum_32x32_86: 636780919
+      22_Museum_32x32_87: 1375449191
+      22_Museum_32x32_88: -1897458831
+      22_Museum_32x32_89: 1421208737
+      22_Museum_32x32_9: -1842482190
+      22_Museum_32x32_90: -128616056
+      22_Museum_32x32_91: 1847881736
+      22_Museum_32x32_92: 704157827
+      22_Museum_32x32_93: -2098951579
+      22_Museum_32x32_94: 1433553539
+      22_Museum_32x32_95: 2087499601
+      22_Museum_32x32_96: -870539893
+      22_Museum_32x32_97: -1323995247
+      22_Museum_32x32_98: -191539015
+      22_Museum_32x32_99: -1008519338
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

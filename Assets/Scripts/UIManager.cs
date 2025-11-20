@@ -83,12 +83,38 @@ private IEnumerator InicializarSoundManager()
         if (levelSelectScreen != null) levelSelectScreen.SetActive(true);
     }
 
+    public void OnLevel1Selected()
+    {
+        InicializarNivel(1);
+    }
+
     public void OnLevel2Selected()
+    {
+        InicializarNivel(2);
+    }
+
+    public void OnLevel3Selected()
+    {
+        InicializarNivel(3);
+    }
+
+    private void InicializarNivel(int nivel)
     {
         if (levelSelectScreen != null) levelSelectScreen.SetActive(false);
         if (mainUI != null) mainUI.SetActive(true);
         if (caosometroUI != null) caosometroUI.SetActive(true);
 
+        // Inicializar el nivel usando LevelManager
+        if (LevelManager.Instance != null)
+        {
+            LevelManager.Instance.InicializarNivel(nivel);
+        }
+        else
+        {
+            Debug.LogWarning("LevelManager no encontrado. Asegúrate de tener un LevelManager en la escena.");
+        }
+
+        // Deshabilitar movimiento del jugador inicialmente
         var jugador = GameObject.FindGameObjectWithTag("Player");
         if (jugador != null)
         {

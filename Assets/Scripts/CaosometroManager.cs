@@ -9,11 +9,36 @@ public class CaosometroManager : MonoBehaviour
 
     void Start()
     {
-        // Contar automáticamente los objetos con tag "Interactable" y "Pickup"
-        int interactables = GameObject.FindGameObjectsWithTag("Interactable").Length;
-        int pickups = GameObject.FindGameObjectsWithTag("Pickup").Length;
-        totalObjetos = interactables + pickups;
+        Inicializar();
+    }
 
+    public void Inicializar()
+    {
+        // Contar automáticamente los objetos con tag "Interactable" y "Pickup" que estén activos
+        GameObject[] interactables = GameObject.FindGameObjectsWithTag("Interactable");
+        GameObject[] pickups = GameObject.FindGameObjectsWithTag("Pickup");
+
+        int countInteractables = 0;
+        int countPickups = 0;
+
+        // Contar solo los objetos activos
+        foreach (GameObject obj in interactables)
+        {
+            if (obj != null && obj.activeInHierarchy)
+            {
+                countInteractables++;
+            }
+        }
+
+        foreach (GameObject obj in pickups)
+        {
+            if (obj != null && obj.activeInHierarchy)
+            {
+                countPickups++;
+            }
+        }
+
+        totalObjetos = countInteractables + countPickups;
         objetosRestantes = totalObjetos;
 
         // Configurar correctamente el slider

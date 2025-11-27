@@ -1,24 +1,49 @@
 using UnityEngine;
+using System.Collections; // Necesario para usar Corrutinas (tiempos)
 
 public class IntroAnimacionManager : MonoBehaviour
 {
-    public GameObject uiPrincipal;
-    public GameObject animacionContainer;
+    [Header("Configuración")]
+    public float tiempoDuracion = 4.0f; // Cuánto dura la intro en segundos
+    public GameObject panelVisual; // (Opcional) Arrastra aquí lo que quieras mostrar
 
-    public void FinDeAnimacion()
+    private Movement playerMovement;
+
+    void OnEnable() // Se activa cuando arranca el nivel
     {
-        if (animacionContainer != null)
-            animacionContainer.SetActive(false);
-
-        if (uiPrincipal != null)
-            uiPrincipal.SetActive(true);
-
-        GameObject jugador = GameObject.FindGameObjectWithTag("Player");
-        if (jugador != null)
+        // 1. Buscamos al jugador y lo bloqueamos
+        playerMovement = FindFirstObjectByType<Movement>(); 
+        
+        if (playerMovement != null)
         {
-            Movement movimiento = jugador.GetComponent<Movement>();
-            if (movimiento != null)
-                movimiento.SetMovimientoHabilitado(true);
+            playerMovement.SetMovimientoHabilitado(false); // ¡Quieto!
         }
+
+        // 2. Activamos lo visual (si hay algo asignado)
+        if (panelVisual != null) panelVisual.SetActive(true);
+
+        // 3. Iniciamos el conteo regresivo
+        StartCoroutine(EsperarYLiberar());
+    }
+
+    IEnumerator EsperarYLiberar()
+    {
+        // Esperamos los segundos que dijiste (ej: 4 segundos)
+        yield return new WaitForSeconds(tiempoDuracion);
+
+        // ¡YA PASÓ EL TIEMPO!
+        FinalizarIntro();
+    }
+
+    void FinalizarIntro()
+    {
+        // Liberamos al jugador
+        if (playerMovement != null)
+        {
+            playerMovement.SetMovimientoHabilitado(true); // ¡Corre libre!
+        }
+
+        // Apagamos el objeto de la intro para que no moleste
+        gameObject.SetActive(false);
     }
 }

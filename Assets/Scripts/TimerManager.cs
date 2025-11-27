@@ -68,5 +68,8 @@ public class TimerManager : MonoBehaviour
         juegoTerminado = false;
         evento1 = false;
         evento2 = false;
+        
+        // --- AGREGADO: Forzamos que el texto se ponga en 15:00 YA MISMO ---
+        UpdateUI(duracionVisible); 
     }
 }

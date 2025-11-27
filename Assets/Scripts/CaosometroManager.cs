@@ -20,12 +20,13 @@ public class CaosometroManager : MonoBehaviour
 
         int countInteractables = 0;
         int countPickups = 0;
-
+        Debug.Log("--- INICIO DEL RECUENTO DE CAOS ---"); // <--- AGREGA ESTO
         // Contar solo los objetos activos
         foreach (GameObject obj in interactables)
         {
             if (obj != null && obj.activeInHierarchy)
-            {
+            {// AGREGA ESTA LÍNEA PARA VER EL NOMBRE:
+                Debug.Log("Detectado Interactable: " + obj.name, obj);
                 countInteractables++;
             }
         }
@@ -34,12 +35,15 @@ public class CaosometroManager : MonoBehaviour
         {
             if (obj != null && obj.activeInHierarchy)
             {
+                // AGREGA ESTA LÍNEA PARA VER EL NOMBRE:
+                Debug.Log("Detectado Pickup: " + obj.name, obj);
                 countPickups++;
             }
         }
 
         totalObjetos = countInteractables + countPickups;
         objetosRestantes = totalObjetos;
+        Debug.Log("TOTAL OBJETOS A LIMPIAR: " + totalObjetos); // <--- AGREGA ESTO
 
         // Configurar correctamente el slider
         if (caosometroSlider != null)

@@ -10,7 +10,7 @@
 - **Tiempo visible**: 15 minutos (mostrado en pantalla)
 - **Tiempo real**: 8 minutos de juego efectivo
 - El reloj cuenta regresivamente desde 15:00 hasta 00:00
-- Eventos especiales se activan a los 10 minutos y 5 minutos restantes
+- Eventos especiales se activan a los 10 minutos y 5 minutos restantes (A desarrollar)
 
 ### Sistema de Caosómetro
 - Mide el desorden restante en el nivel
@@ -117,14 +117,9 @@ LevelManager.Instance.InicializarNivel(1); // Inicia nivel 1
 
 **Funcionalidades**:
 - Cuenta regresiva visual de 15:00 a 00:00
-- Activa eventos en 10:00 y 5:00 minutos restantes
 - Finaliza el juego al llegar a 0
 
-**Eventos**:
-- **Evento 1**: Se activa a los 10 minutos restantes
-- **Evento 2**: Se activa a los 5 minutos restantes
 
----
 
 ### CaosometroManager.cs
 **Responsabilidad**: Gestiona el sistema de caosómetro.
@@ -268,9 +263,6 @@ LevelManager.Instance.InicializarNivel(1); // Inicia nivel 1
 ### EventTrigger.cs
 **Responsabilidad**: Gestiona eventos especiales durante el juego.
 
-**Eventos**:
-- **Evento 1**: Llamado del ex (a los 10 minutos)
-- **Evento 2**: Vecina chusma (a los 5 minutos)
 
 **Funcionalidades**:
 - `TriggerEvent(int eventNumber)`: Activa un evento específico
@@ -517,6 +509,11 @@ Muchos scripts usan el patrón Singleton para acceso global:
    - `FinalEvaluator` evalúa el resultado
 
 ---
+
+## Tareas pendientes
+**Eventos **:
+- **Evento 1**: Llamado del ex (a los 10 minutos)
+- **Evento 2**: Vecina chusma (a los 5 minutos)
 
 ## 📞 Soporte
 
